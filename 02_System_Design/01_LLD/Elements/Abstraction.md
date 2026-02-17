@@ -108,3 +108,6 @@ public class Main {
 }
 ```
 
+- **Abstract Class** = "We are family, let's share our base code."
+    
+- **Interface** = "We are different, but we both follow this one rule."
