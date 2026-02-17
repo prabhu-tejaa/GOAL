@@ -9,6 +9,7 @@ A **Bank Account**. You can't change your `balance` directly; you have to use th
 We use the **`private`** access modifier to achieve Encapsulation. It hides the data so that it can only be accessed or modified through **public** methods, ensuring the data stays valid and secure.
 
 ```
+## Where it CAN be changed
 class BankAccount {
     private double balance;
 
@@ -17,7 +18,7 @@ class BankAccount {
     }
 }
 
-##Where it CANNOT be changed
+## Where it CANNOT be changed
 class Thief {
     public void hack(BankAccount account) {
         // ❌ ERROR: The compiler will stop you here.
@@ -26,3 +27,5 @@ class Thief {
     }
 }
 ```
+
+**Encapsulation** is about **security** (hiding the data)
