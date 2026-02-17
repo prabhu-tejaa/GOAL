@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "OOPs"
             }
-          },
-          {
-            "id": "bdf954480569da21",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-17 08.37.48.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-17 08.37.48.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bdf954480569da21",
+  "active": "a57e2dec1a83e9ec",
   "lastOpenFiles": [
     "02_System_Design/01_LLD/OOPs.md",
     "Excalidraw/Drawing 2026-02-17 08.37.48.excalidraw.md",
