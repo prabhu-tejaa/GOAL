@@ -161,12 +161,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "325455b131ee0a74",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -182,11 +193,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a57e2dec1a83e9ec",
+  "active": "e94ab3c3260872df",
   "lastOpenFiles": [
     "02_System_Design/01_LLD/OOPs.md",
-    "Excalidraw/Drawing 2026-02-17 08.37.48.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-17 08.39.31.excalidraw.md",
+    "Untitled.base",
     "Excalidraw",
+    "2026-02-17.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2026-02-17 08.37.48.excalidraw.md",
     "Welcome.md",
     "04_Daily_Logs",
     "03_Computer_Fundamentals",
