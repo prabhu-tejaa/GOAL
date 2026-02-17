@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_System_Design/01_LLD/OOPs.md",
+                "file": "02_System_Design/01_LLD/Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OOPs"
+              "title": "Intro"
             }
           }
         ]
@@ -196,6 +196,7 @@
   "active": "e94ab3c3260872df",
   "lastOpenFiles": [
     "02_System_Design/01_LLD/OOPs.md",
+    "02_System_Design/01_LLD/Intro.md",
     "Excalidraw/Drawing 2026-02-17 08.39.31.excalidraw.md",
     "Untitled.base",
     "Excalidraw",

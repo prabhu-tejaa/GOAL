@@ -1,0 +1,1 @@
+LLD is a component level design process that follows a step by step refinemen
