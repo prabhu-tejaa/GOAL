@@ -150,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
             }
           }
         ]
@@ -174,11 +173,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a57e2dec1a83e9ec",
+  "active": "e94ab3c3260872df",
   "lastOpenFiles": [
+    "Welcome.md",
     "04_Daily_Logs",
     "03_Computer_Fundamentals",
     "02_System_Design/02_HLD",
@@ -186,7 +187,6 @@
     "01_DSA",
     "02_System_Design/01_LLD",
     "01_DSA/DSA (Non - Linear)",
-    "01_DSA/DSA (Linear)",
-    "Welcome.md"
+    "01_DSA/DSA (Linear)"
   ]
 }
