@@ -193,10 +193,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e94ab3c3260872df",
+  "active": "a57e2dec1a83e9ec",
   "lastOpenFiles": [
-    "02_System_Design/01_LLD/Intro.md",
+    "02_System_Design/01_LLD/01_Intro.md",
     "02_System_Design/01_LLD/OOPs.md",
+    "02_System_Design/01_LLD/Elements",
+    "02_System_Design/01_LLD/Elements/Abstraction.md",
+    "02_System_Design/01_LLD/Elements/Polymorphism.md",
+    "02_System_Design/01_LLD/Elements/Inheritance.md",
+    "02_System_Design/01_LLD/Elements/Encapsulation.md",
     "Excalidraw/Drawing 2026-02-17 08.39.31.excalidraw.md",
     "Untitled.base",
     "Excalidraw",
@@ -210,7 +215,6 @@
     "02_System_Design",
     "01_DSA",
     "02_System_Design/01_LLD",
-    "01_DSA/DSA (Non - Linear)",
-    "01_DSA/DSA (Linear)"
+    "01_DSA/DSA (Non - Linear)"
   ]
 }
