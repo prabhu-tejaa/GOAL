@@ -23,23 +23,19 @@ Think about a coffee machine:
 - **Easy Maintenance:** You can change the "internal grinder" of the coffee machine later, and as long as the "Espresso" button still works, the user doesn't have to change anything.
 
 ```
-// 1. The "Abstract" Plan (The Blueprint)
 abstract class CoffeeMachine {
     
-    // The "What": Every machine MUST have a brew process
     public abstract void brew(); 
 
-    // The "Hidden How": Common logic used internally
     protected void boilWater() {
         System.out.println("Boiling water at 90°C...");
     }
 }
 
-// 2. The "Concrete" Implementation (The Actual Machine)
 class EspressoMachine extends CoffeeMachine {
     @Override
     public void brew() {
-        boilWater(); // Use the hidden logic
+        boilWater();
         System.out.println("Using high pressure to make Espresso.");
     }
 }
@@ -47,8 +43,68 @@ class EspressoMachine extends CoffeeMachine {
 class DripCoffeeMaker extends CoffeeMachine {
     @Override
     public void brew() {
-        boilWater(); // Use the hidden logic
+        boilWater();
         System.out.println("Dripping water slowly through filter.");
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        CoffeeMachine myMachine = new EspressoMachine();
+        
+        myMachine.brew(); 
+    }
+}
 ```
+
+**Abstraction:** "I don't care how it works, just give me the result."
+
+**Abstract Classes** and **Interfaces** are the two main ways to achieve Abstraction, but they do it in slightly different ways.
+
+If an **Abstract Class** is a "Partial Blueprint" (some stuff is done, some isn't), an **Interface** is a **"Pure Contract."**
+
+### The Interface (The "Pure" Abstraction)
+
+An interface doesn't have any "how" at all. It only lists the commands. It's like a menu at a restaurant: it tells you **what** you can order, but it doesn't show you the kitchen.
+
+#### The "Car" Example with Interface
+
+Imagine a "Driver's License" contract. It doesn't matter if you drive a Truck or a Sedan; you must follow the same rules.
+
+```
+interface RemoteControl {
+    void powerOn();
+    void powerOff();
+}
+
+class TV implements RemoteControl {
+    public void powerOn() {
+        System.out.println("TV Screen is glowing...");
+    }
+    public void powerOff() {
+        System.out.println("TV is shutting down.");
+    }
+}
+
+class AirConditioner implements RemoteControl {
+    public void powerOn() {
+        System.out.println("AC fan is starting...");
+    }
+    public void powerOff() {
+        System.out.println("AC compressor stopped.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        RemoteControl myDevice;
+
+        myDevice = new TV();
+        myDevice.powerOn();
+
+        myDevice = new AirConditioner();
+        myDevice.powerOn();
+    }
+}
+```
+

@@ -29,3 +29,5 @@ class Thief {
 ```
 
 **Encapsulation** is about **security** (hiding the data)
+
+**Encapsulation:** "Don't touch my stuff!" (Security/Grouping)
