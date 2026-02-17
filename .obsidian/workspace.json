@@ -11,10 +11,14 @@
             "id": "e94ab3c3260872df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02_System_Design/01_LLD/OOP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OOP"
             }
           }
         ]
@@ -179,6 +183,7 @@
   },
   "active": "e94ab3c3260872df",
   "lastOpenFiles": [
+    "02_System_Design/01_LLD/OOP.md",
     "Welcome.md",
     "04_Daily_Logs",
     "03_Computer_Fundamentals",
