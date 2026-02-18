@@ -69,30 +69,38 @@ class User {
 class Student extends User {
     int sid;
     String dept;
-    int rank;
 
     public Student getStudent() {
-        System.out.println("Student Details: " + name + ", " + age + ", " + add);
-        
-        User currUser = getUserByName(this.name);
-        
+        System.out.println("Student: " + name + " from " + dept);
         return new Student();
+    }
+}
+
+class Teacher extends User {
+    int employeeId;
+    String subject;
+    double salary;
+
+    public void getTeacherDetails() {
+        System.out.println("Teacher: " + name + " teaches " + subject);
     }
 }
 
 public class Main {
     public static void main(String[] args) {
         Student st = new Student();
-        
-        st.name = "Rahul";
-        st.age = 22;
-        st.add = "Mumbai, India";
-        
-        st.sid = 101;
-        st.dept = "Computer Science";
-        
+        st.name = "Rahul;
+        st.dept = "CS";
         st.getStudent();
+
+        Teacher prof = new Teacher();
+        prof.name = "Dr. Smith;
+        prof.subject = "Java OOP";
+        prof.getTeacherDetails();
+        
     }
 }
 
 ```
+
+**Inheritance** can fix a great amount of code duplication problem.
