@@ -22,6 +22,6 @@ There are two main types:
 **Static Polymorphism** (Compile time) and **Dynamic Polymorphism** (Runtime)
 
 **Static Polymorphism** (Compile time) is what we call as **method overloading**
-**Dynamic Polymorphism** (Runtime) is what we call as **method overriding**
+**Dynamic Polymorphism** (Runtime) is what we call as **method overriding** and there is another keyword for this **Dynamic method dispatch**
 
 50min
