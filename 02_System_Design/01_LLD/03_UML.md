@@ -7,3 +7,12 @@ It is a standard which is mainly used for creating Object Oriented Programming m
 It provides us a way to develop rich models that describe the working of any software or hardware systems.
 
 UML is a **standardized modeling language** used to visualize, specify, and document the **architecture** of a system. In LLD, we use it to map out **class hierarchies**, object interactions, and system boundaries before writing a single line of code.
+
+**UML Relationships**
+IS-A
+- generalization
+	deatls with
+- realization
+HAS-A
+USES/DEPENDENCY
+
