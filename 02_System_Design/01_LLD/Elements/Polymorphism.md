@@ -66,3 +66,33 @@ There are two main types:
         
     - `u.printRole();` -> Java waits until the app is running to see that `u` is actually a `Student`.
 
+| **Feature**     | **Method Overloading**                                                                                   | **Method Overriding**                        |
+| --------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| **Concept**     | **Compile-time** (Static) Polymorphism.                                                                  | **Runtime** (Dynamic) Polymorphism.          |
+| **Class**       | Occurs within the **same class**.                                                                        | Occurs between **Parent and Child** classes. |
+| **Method Name** | Must be **the same**.                                                                                    | Must be **the same**.                        |
+| **Parameters**  | Must be **different** (number, type, or order).                                                          | Must be **the exact same**.                  |
+| **Return Type** | Can be different (Will not let you create two methods where the **only** difference is the return type). | Must be the **same** (or covariant).         |
+| **Keywords**    | No special keyword used.                                                                                 | Uses the **`@Override`** annotation.         |
+
+### **(The "3S" Rule)**
+
+#### **1. Static vs. Dynamic**
+
+- **Overloading** is **Static**: The compiler looks at the "Script" (your code) and decides which version to use before the app even starts.
+    
+- **Overriding** is **Dynamic**: The JVM (Java Virtual Machine) waits until the app is **Doing** something to see what the actual object is.
+    
+
+#### **2. Same vs. Sub (Inheritance)**
+
+- **Overloading** happens in the **Same** class. You are just adding "flavors" to a method.
+    
+- **Overriding** requires a **Sub-class**. You are changing the behavior inherited from a parent.
+    
+
+#### **3. Signature vs. Logic**
+
+- **Overloading** changes the **Signature** (the parameters).
+    
+- **Overriding** changes the **Logic** inside the body, keeping the signature identical.
