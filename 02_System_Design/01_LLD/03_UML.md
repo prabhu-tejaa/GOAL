@@ -11,8 +11,9 @@ UML is a **standardized modeling language** used to visualize, specify, and docu
 **UML Relationships**
 IS-A
 - generalization
-	deatls with
+	deals with abstract classes or concrete classes
 - realization
+	deals with interface
 HAS-A
 USES/DEPENDENCY
 
