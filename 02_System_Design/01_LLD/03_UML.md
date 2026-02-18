@@ -1,6 +1,9 @@
 **Unified Modelling Language**
 
-It's just a diagram
+It's a diagram
 
-This is a standard which is mainly used for creating Object Oriented Programming meaningful documentation models for any software system present in the world.
-It provides us to develop rich models
+It is a standard which is mainly used for creating Object Oriented Programming meaningful documentation models for any software system present in the world.
+
+It provides us a way to develop rich models that describe the working of any software or hardware systems.
+
+UML is a **standardized modeling language** used to visualize, specify, and document the **architecture** of a system. In LLD, we use it to map out **class hierarchies**, object interactions, and system boundaries before writing a single line of code.
