@@ -115,61 +115,55 @@ public class Main {
 ```
 import java.util.Scanner;
 
-interface Drawable {
-    void draw(); 
+interface Shape {
+    void draw();
 }
 
-class Circle implements Drawable {
+class Circle implements Shape {
     @Override
-    public void draw() {
-        System.out.println("Drawing a Circle ⭕ using radius.");
-    }
+    public void draw() { System.out.println("Drawing Circle ⭕"); }
 }
 
-class Square implements Drawable {
+class Square implements Shape {
     @Override
-    public void draw() {
-        System.out.println("Drawing a Square ⬜ using 4 equal sides.");
-    }
+    public void draw() { System.out.println("Drawing Square ⬜"); }
 }
 
-class Rectangle implements Drawable {
+class Rectangle implements Shape {
     @Override
-    public void draw() {
-        System.out.println("Drawing a Rectangle ▭ using length and width.");
-    }
+    public void draw() { System.out.println("Drawing Rectangle ▭"); }
 }
 
-class Cylinder implements Drawable {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a Cylinder 🛢️ using base circle and height.");
-    }
-}
-
-public class ShapeSystem {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Which shape do you want to draw? (circle/square/rectangle/cylinder):");
-        String choice = sc.next().toLowerCase();
-
-        Drawable myShape = null;
-
-        if (choice.equals("circle")) {
-            myShape = new Circle();
-        } else if (choice.equals("square")) {
-            myShape = new Square();
-        } else if (choice.equals("rectangle")) {
-            myShape = new Rectangle();
-        } else if (choice.equals("cylinder")) {
-            myShape = new Cylinder();
+class ShapeFactory {
+    public Shape getShape(String shapeType) {
+        if (shapeType == null) {
+            return null;
         }
+        if (shapeType.equalsIgnoreCase("CIRCLE")) {
+            return new Circle();
+        } else if (shapeType.equalsIgnoreCase("SQUARE")) {
+            return new Square();
+        } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
+            return new Rectangle();
+        }
+        return null;
+    }
+}
+
+public class FactoryPatternDemo {
+    public static void main(String[] args) {
+        ShapeFactory factory = new ShapeFactory();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter shape name:");
+        String userInput = sc.next();
+
+        Shape myShape = factory.getShape(userInput);
 
         if (myShape != null) {
-            myShape.draw(); 
+            myShape.draw();
         } else {
-            System.out.println("Sorry, shape not recognized.");
+            System.out.println("Invalid shape entered.");
         }
         
         sc.close();
