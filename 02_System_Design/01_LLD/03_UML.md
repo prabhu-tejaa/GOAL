@@ -18,7 +18,9 @@ HAS-A
 	are knowns as associations either uni-directional or bi-directional
 	associations are of two types
 		- Strong association
-			A string association is what we call as a composition
+			A strong association is what we call as a composition
 		- Week association
+			Is what we call as aggregation or we can say them as stand alone classes.
+			
 USES/DEPENDENCY
-
+	Utility classes
