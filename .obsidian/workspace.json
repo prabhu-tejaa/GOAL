@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_System_Design/01_LLD/Elements/Inheritance.md",
+                "file": "02_System_Design/01_LLD/Elements/Abstraction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inheritance"
+              "title": "Abstraction"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "e94ab3c3260872df",
   "lastOpenFiles": [
-    "02_System_Design/01_LLD/Elements/Abstraction.md",
     "02_System_Design/01_LLD/Elements/Inheritance.md",
+    "02_System_Design/01_LLD/Elements/Abstraction.md",
     "02_System_Design/01_LLD/Elements/Encapsulation.md",
     "02_System_Design/01_LLD/02_OOPs.md",
     "02_System_Design/01_LLD/01_Intro.md",

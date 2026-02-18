@@ -111,3 +111,68 @@ public class Main {
 - **Abstract Class** = "We are family, let's share our base code."
     
 - **Interface** = "We are different, but we both follow this one rule."
+- 
+```
+import java.util.Scanner;
+
+interface Drawable {
+    void draw(); 
+}
+
+class Circle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Circle ⭕ using radius.");
+    }
+}
+
+class Square implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Square ⬜ using 4 equal sides.");
+    }
+}
+
+class Rectangle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Rectangle ▭ using length and width.");
+    }
+}
+
+class Cylinder implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Cylinder 🛢️ using base circle and height.");
+    }
+}
+
+public class ShapeSystem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Which shape do you want to draw? (circle/square/rectangle/cylinder):");
+        String choice = sc.next().toLowerCase();
+
+        Drawable myShape = null;
+
+        if (choice.equals("circle")) {
+            myShape = new Circle();
+        } else if (choice.equals("square")) {
+            myShape = new Square();
+        } else if (choice.equals("rectangle")) {
+            myShape = new Rectangle();
+        } else if (choice.equals("cylinder")) {
+            myShape = new Cylinder();
+        }
+
+        if (myShape != null) {
+            myShape.draw(); 
+        } else {
+            System.out.println("Sorry, shape not recognized.");
+        }
+        
+        sc.close();
+    }
+}
+```
