@@ -170,3 +170,7 @@ public class FactoryPatternDemo {
     }
 }
 ```
+
+**Difference between encapsulation and abstraction**
+Hiding details at the **design** level.
+Hiding details at the **implementation** level.
