@@ -31,3 +31,7 @@ class Thief {
 **Encapsulation** is about **security** (hiding the data)
 
 **Encapsulation:** "Don't touch my stuff!" (Security/Grouping)
+
+**`private`** The "Lock." Prevents direct access from other classes.
+**Setters** The "Security Guard." Validates data before letting it in.
+**Getters** The "View Window." Lets people see the data without touching it.

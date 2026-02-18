@@ -172,5 +172,14 @@ public class FactoryPatternDemo {
 ```
 
 **Difference between encapsulation and abstraction**
+**Encapsulation:**
 Hiding details at the **design** level.
+Data hiding
+Groups together data and methods that act upon data
+you know _what_ will happen, but you don't care about the logic inside.
+
+**Abstraction:**
 Hiding details at the **implementation** level.
+Detaining or the information is hidden
+Exposing the interface to the user while and hiding implementation details.
+private so nobody can change it.
