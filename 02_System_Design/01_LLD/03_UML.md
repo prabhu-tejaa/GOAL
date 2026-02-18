@@ -11,9 +11,14 @@ UML is a **standardized modeling language** used to visualize, specify, and docu
 **UML Relationships**
 IS-A
 - generalization
-	deals with abstract classes or concrete classes
+	is a abstract classes or concrete classes
 - realization
-	deals with interface
+	is a interface
 HAS-A
+	are knowns as associations either uni-directional or bi-directional
+	associations are of two types
+		- Strong association
+			A string association is what we call as a composition
+		- Week association
 USES/DEPENDENCY
 
