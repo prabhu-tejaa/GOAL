@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_System_Design/01_LLD/Elements/Abstraction.md",
+                "file": "02_System_Design/01_LLD/01_Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abstraction"
+              "title": "01_Intro"
             }
           }
         ]
@@ -193,8 +193,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a57e2dec1a83e9ec",
+  "active": "e94ab3c3260872df",
   "lastOpenFiles": [
+    "2026-02-18.md",
+    "02_System_Design/01_LLD/Elements/Abstraction.md",
     "04_Tech Stack/Electron.js",
     "04_Tech Stack/Ionic",
     "04_Tech Stack/SQL",
@@ -206,10 +208,8 @@
     "05_Job Hunt",
     "04_Tech Stack",
     "02_System_Design/01_LLD/01_Intro.md",
-    "02_System_Design/01_LLD/Elements/Abstraction.md",
     "02_System_Design/01_LLD/Elements/Encapsulation.md",
     "02_System_Design/01_LLD/02_OOPs.md",
-    "02_System_Design/01_LLD/Elements",
     "02_System_Design/01_LLD/Elements/Polymorphism.md",
     "02_System_Design/01_LLD/Elements/Inheritance.md",
     "Excalidraw/Drawing 2026-02-17 08.39.31.excalidraw.md",
