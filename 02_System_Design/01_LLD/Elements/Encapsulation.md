@@ -32,6 +32,18 @@ class Thief {
 
 **Encapsulation:** "Don't touch my stuff!" (Security/Grouping)
 
-**`private`** The "Lock." Prevents direct access from other classes.
-**Setters** The "Security Guard." Validates data before letting it in.
-**Getters** The "View Window." Lets people see the data without touching it.
+## Gemini said
+
+That’s a great way to visualize it! To complete the picture of encapsulation and access control in Java, we can add **`protected`** and **`default`** (Package-Private) to your list.
+
+Here is how you can expand your "security" analogy:
+
+---
+
+## The Encapsulation Security Levels
+
+- **`private`** (The **Vault**): The "Lock." Prevents direct access from any other class. Only the owner (the class itself) has the key.
+    
+- **`default` / Package-Private** (The **Office Suite**): The "Keycard Access." Only people working in the same department (the same **package**) can walk in and see what's happening. Outsiders can't even see the door.
+    
+- **`protected`** (The **Family Inheritance**): The "Family Secret." Just like `default`, people in the same package can see it, but **subclasses** (the "children" of the class) also get a copy of the key, even if they move to a different city (package).

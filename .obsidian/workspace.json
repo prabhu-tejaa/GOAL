@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Government.md",
+                "file": "02_System_Design/01_LLD/Elements/Encapsulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Government"
+              "title": "Encapsulation"
             }
           }
         ]
@@ -195,10 +195,10 @@
   },
   "active": "e94ab3c3260872df",
   "lastOpenFiles": [
+    "05_Job Hunt/Government.md",
     "05_Job Hunt/Private Companies.md",
     "02_System_Design/01_LLD/Elements/Abstraction.md",
     "02_System_Design/01_LLD/Elements/Encapsulation.md",
-    "05_Job Hunt/Government.md",
     "05_Job Hunt/Government",
     "06_Daily_Logs/2026-02-19.md",
     "02_System_Design/01_LLD/03_UML.md",
