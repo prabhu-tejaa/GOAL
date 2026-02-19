@@ -50,7 +50,7 @@ BEL
     
 - **NIC - Scientific/Technical Assistant 'A':** Short notification released (376 vacancies). Applications open shortly.
 
-- **SBI - Circle Based Officer (CBO):** Extended deadline to **February 25, 2026**.
+- **SBI - Specialist Officer (SO/SCO)
 
 ### 4. Wait Till Notification (Expected Later in 2026)
 
