@@ -27,7 +27,6 @@ BEL
     
 ### 2. On Going (Currently Active)
 
-- **SBI - Circle Based Officer (CBO):** Extended deadline to **February 25, 2026**.
     
 - **TGPSC OTR Updation:** Currently active; a mandatory step for state technical exams.
     
@@ -50,7 +49,8 @@ BEL
 - **NIC - Scientist B:** Short notification released (243 vacancies). Detailed application opens shortly after GATE 2026 results.
     
 - **NIC - Scientific/Technical Assistant 'A':** Short notification released (376 vacancies). Applications open shortly.
-    
+
+- **SBI - Circle Based Officer (CBO):** Extended deadline to **February 25, 2026**.
 
 ### 4. Wait Till Notification (Expected Later in 2026)
 
