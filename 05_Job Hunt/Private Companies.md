@@ -1,8 +1,8 @@
-Google
+[[JPMC]] - 22-02-2026
+[[Google]] - 23-02-2026 
 Microsoft
 Uber
 Attalisian
-J.P morgan chase
 Phone pe
 Razor pay
 D.E shaw
