@@ -6,7 +6,7 @@ J.P morgan chase
 Phone pe
 Razor pay
 D.E shaw
-Towet research
+Tower research
 Meta
 Oracle
 Gitlab
