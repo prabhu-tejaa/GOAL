@@ -1,33 +1,48 @@
-[[JPMC]] - 22-02-2026
-[[Google]] - 23-02-2026 
-Microsoft
-Uber
-Attalisian
-Phone pe
-Razor pay
-D.E shaw
-Tower research
-Meta
-Oracle
-Gitlab
-Github
-Canonical (Ubuntu)
-DuckDuckGo
-Stripe
-Airbnb
-LinkedIn
+[[Applied]]
+
 Adobe
-Salesforce
-Intuit
-Cisco
+Airbnb
+AMD
 American Express
-Master card
-Visa
-Paypal
-Sap labs
-VMware
-Netflix
-Indeed
-Uber
+Apple
+Atlassian
+Barclays
+Canonical (Ubuntu)
+Cisco
+Coin base
 Cred
+D.E shaw
+DuckDuckGo
+Eli Lilly
+Github
+Gitlab
+Goldman Sachs
+Google
+Indeed
+Intuit
+JPMC - 22-02-2026
+LinkedIn
+Master card
+Meta
+Microsoft
+Netflix
+Nvidia
+Oracle
+Paypal
+Phone pe
+Postman
+Razor pay
+Rubrick
+Salesforce
+Sap labs
+Snowflake
+Stripe
+Tower research
+Uber
+Visa
+VMware
 Walmart global
+Wells Fargo
+Zoho
+
+[[Rejected]]
