@@ -11,10 +11,14 @@
             "id": "051e8cf18e1b7c1c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "04_Tech Stack/Java/hashmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hashmap"
             }
           }
         ]
@@ -191,6 +195,7 @@
   },
   "active": "051e8cf18e1b7c1c",
   "lastOpenFiles": [
+    "04_Tech Stack/Java/hashmap.md",
     "05_Job Hunt/Private Companies.md",
     "Untitled 1.canvas",
     "05_Job Hunt/applications/Eli Lilly.md",
