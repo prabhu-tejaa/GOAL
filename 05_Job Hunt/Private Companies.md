@@ -17,10 +17,10 @@ Eli Lilly
 Github
 Gitlab
 Goldman Sachs
-Google
+[[Google]]
 Indeed
 Intuit
-JPMC - 22-02-2026
+[[JPMC]] - 22-02-2026
 LinkedIn
 Master card
 Meta
