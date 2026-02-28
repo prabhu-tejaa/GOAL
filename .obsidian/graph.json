@@ -1,20 +1,12 @@
 {
   "collapse-filter": false,
-  "search": "priva",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "Private Companies",
-      "color": {
-        "a": 1,
-        "rgb": 6749952
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
