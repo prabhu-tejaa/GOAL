@@ -19,3 +19,5 @@ To use binary search, the data **must be sorted**. Here is the logic:
 Complexity of binary search is **O(logn)**.
 
 **Binary Search (O(logn)):** For 1,000,000 items, it will take **no more than 20 steps**.
+
+This is the core formula of binary search to find the mid = left + (right - left) / 2
