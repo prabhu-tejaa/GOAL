@@ -21,3 +21,12 @@ Complexity of binary search is **O(logn)**.
 **Binary Search (O(logn)):** For 1,000,000 items, it will take **no more than 20 steps**.
 
 This is the core formula of binary search to find the mid = left + (right - left) / 2
+
+Here, **BODMAS** is the grammar that ensures the Machine understands the Logic
+1. Brackets
+2. Orders (x^ or roots)
+3. Division
+4. Multiplication
+5. Addition
+6. Subtraction
+
