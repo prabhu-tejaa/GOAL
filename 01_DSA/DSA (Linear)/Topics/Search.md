@@ -32,3 +32,7 @@ Here, **BODMAS** is the grammar that ensures the Machine understands the Logic
 
 ## row = mid / n 
 ## col = mid % n
+
+**Math:** 11/4=2 (In programming, we ignore the decimals/remainders here).
+- **Scenario:** You have **11 eggs**. Each carton holds **4**.
+- **Math:** 11(mod4)=3.
