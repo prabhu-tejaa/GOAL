@@ -30,3 +30,5 @@ Here, **BODMAS** is the grammar that ensures the Machine understands the Logic
 5. Addition
 6. Subtraction
 
+## row = mid / n 
+## col = mid % n
