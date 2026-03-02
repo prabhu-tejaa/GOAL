@@ -36,3 +36,9 @@ Here, **BODMAS** is the grammar that ensures the Machine understands the Logic
 **Math:** 11/4=2 (In programming, we ignore the decimals/remainders here).
 - **Scenario:** You have **11 eggs**. Each carton holds **4**.
 - **Math:** 11(mod4)=3.
+
+In computers or coding in leetodde 9/3 = 4 and 9/2 = 8;
+
+
+# **Search Space Reduction**
+
