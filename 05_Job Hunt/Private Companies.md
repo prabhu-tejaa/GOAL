@@ -23,7 +23,7 @@ Intuit
 [[JPMC]] - 22-02-2026
 LinkedIn
 Master card
-Meta
+[[Meta]]
 Microsoft
 Netflix
 Nvidia
@@ -32,7 +32,7 @@ Paypal
 Phone pe
 Postman
 Razor pay
-Rubrick
+[[Rubrick]]
 Salesforce
 Sap labs
 Snowflake
