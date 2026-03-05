@@ -1,4 +1,4 @@
-# THE COMPLETE PROBLEMS LIST
+# THE COMPLETE 131 PROBLEMS LIST
 ---
 ## FOUNDATION (27 PROBLEMS)
 
@@ -15,12 +15,12 @@
 
 ### TWO POINTERS (4)
 
-| #   | Problem                   | Difficulty | LeetCode                                                         | Companies            | Priority |
-| --- | ------------------------- | ---------- | ---------------------------------------------------------------- | -------------------- | -------- |
-| 7   | Valid Palindrome          | Easy       | [Link](https://leetcode.com/problems/valid-palindrome/)          | Microsoft, Adobe     | ⭐⭐       |
-| 8   | 3Sum                      | Medium     | [Link](https://leetcode.com/problems/3sum/)                      | Amazon, Google, Meta | ⭐⭐⭐      |
-| 9   | Container With Most Water | Medium     | [Link](https://leetcode.com/problems/container-with-most-water/) | Microsoft, Google    | ⭐⭐⭐      |
-| 10  | Trapping Rain Water       | Hard       | [Link](https://leetcode.com/problems/trapping-rain-water/)       | Amazon, Google, Meta | ⭐⭐⭐      |
+| #   | Problem                   | Difficulty | LeetCode                                                         | Priority |
+| --- | ------------------------- | ---------- | ---------------------------------------------------------------- | -------- |
+| 7   | Valid Palindrome          | Easy       | [Link](https://leetcode.com/problems/valid-palindrome/)          | ⭐⭐       |
+| 8   | 3Sum                      | Medium     | [Link](https://leetcode.com/problems/3sum/)                      | ⭐⭐⭐      |
+| 9   | Container With Most Water | Medium     | [Link](https://leetcode.com/problems/container-with-most-water/) | ⭐⭐⭐      |
+| 10  | Trapping Rain Water       | Hard       | [Link](https://leetcode.com/problems/trapping-rain-water/)       | ⭐⭐⭐      |
 
 ### SLIDING WINDOW (4)
 
