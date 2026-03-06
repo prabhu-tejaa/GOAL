@@ -1,351 +1,325 @@
-# THE ULTIMATE 150 PROBLEMS
-
----
-
-## FOUNDATION (41 PROBLEMS)
-
-### ARRAYS & HASHING (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|1|Two Sum|Easy|[Link](https://leetcode.com/problems/two-sum/)|⭐⭐⭐|
-|2|Valid Anagram|Easy|[Link](https://leetcode.com/problems/valid-anagram/)|⭐⭐|
-|3|Contains Duplicate|Easy|[Link](https://leetcode.com/problems/contains-duplicate/)|⭐⭐|
-|4|Product of Array Except Self|Medium|[Link](https://leetcode.com/problems/product-of-array-except-self/)|⭐⭐⭐|
-|5|Maximum Subarray (Kadane's)|Medium|[Link](https://leetcode.com/problems/maximum-subarray/)|⭐⭐⭐|
-|6|Maximum Product Subarray|Medium|[Link](https://leetcode.com/problems/maximum-product-subarray/)|⭐⭐⭐|
-
-### TWO POINTERS (4)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|7|Valid Palindrome|Easy|[Link](https://leetcode.com/problems/valid-palindrome/)|⭐⭐|
-|8|3Sum|Medium|[Link](https://leetcode.com/problems/3sum/)|⭐⭐⭐|
-|9|Container With Most Water|Medium|[Link](https://leetcode.com/problems/container-with-most-water/)|⭐⭐⭐|
-|10|Trapping Rain Water|Hard|[Link](https://leetcode.com/problems/trapping-rain-water/)|⭐⭐⭐|
-
-### SLIDING WINDOW (4)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|11|Best Time to Buy and Sell Stock|Easy|[Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|⭐⭐⭐|
-|12|Longest Substring Without Repeating|Medium|[Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|⭐⭐⭐|
-|13|Permutation in String|Medium|[Link](https://leetcode.com/problems/permutation-in-string/)|⭐⭐⭐|
-|14|Minimum Window Substring|Hard|[Link](https://leetcode.com/problems/minimum-window-substring/)|⭐⭐⭐|
-
-### STACK (4)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|15|Valid Parentheses|Easy|[Link](https://leetcode.com/problems/valid-parentheses/)|⭐⭐⭐|
-|16|Min Stack|Easy|[Link](https://leetcode.com/problems/min-stack/)|⭐⭐⭐|
-|17|Evaluate Reverse Polish Notation|Medium|[Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|⭐⭐|
-|18|Daily Temperatures|Medium|[Link](https://leetcode.com/problems/daily-temperatures/)|⭐⭐⭐|
-
-### MONOTONIC STACK (1) ⭐ NEW
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|19|Next Greater Element I|Easy|[Link](https://leetcode.com/problems/next-greater-element-i/)|⭐⭐⭐|
-
-### 2D ARRAY / MATRIX (5)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|20|Search a 2D Matrix|Medium|[Link](https://leetcode.com/problems/search-a-2d-matrix/)|⭐⭐⭐|
-|21|Search a 2D Matrix II|Medium|[Link](https://leetcode.com/problems/search-a-2d-matrix-ii/)|⭐⭐⭐|
-|22|Spiral Matrix|Medium|[Link](https://leetcode.com/problems/spiral-matrix/)|⭐⭐⭐|
-|23|Set Matrix Zeroes|Medium|[Link](https://leetcode.com/problems/set-matrix-zeroes/)|⭐⭐⭐|
-|24|Rotate Image|Medium|[Link](https://leetcode.com/problems/rotate-image/)|⭐⭐⭐|
-
-### BIT MANIPULATION (5)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|25|Number of 1 Bits|Easy|[Link](https://leetcode.com/problems/number-of-1-bits/)|⭐⭐⭐|
-|26|Reverse Bits|Easy|[Link](https://leetcode.com/problems/reverse-bits/)|⭐⭐⭐|
-|27|Single Number|Medium|[Link](https://leetcode.com/problems/single-number/)|⭐⭐⭐|
-|28|Bitwise AND of Numbers Range|Medium|[Link](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|⭐⭐|
-|29|Sum of Two Integers|Medium|[Link](https://leetcode.com/problems/sum-of-two-integers/)|⭐⭐⭐|
-
-### MATH (4)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|30|Pow(x, n)|Medium|[Link](https://leetcode.com/problems/powx-n/)|⭐⭐⭐|
-|31|Sqrt(x)|Easy|[Link](https://leetcode.com/problems/sqrtx/)|⭐⭐⭐|
-|32|Happy Number|Medium|[Link](https://leetcode.com/problems/happy-number/)|⭐⭐|
-|33|Add Two Numbers|Medium|[Link](https://leetcode.com/problems/add-two-numbers/)|⭐⭐⭐|
-
-### HEAP / PRIORITY QUEUE (5)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|34|Kth Largest Element in Array|Medium|[Link](https://leetcode.com/problems/kth-largest-element-in-an-array/)|⭐⭐⭐|
-|35|Top K Frequent Elements|Medium|[Link](https://leetcode.com/problems/top-k-frequent-elements/)|⭐⭐⭐|
-|36|Find Median from Data Stream|Hard|[Link](https://leetcode.com/problems/find-median-from-data-stream/)|⭐⭐⭐|
-|37|K Closest Points to Origin|Medium|[Link](https://leetcode.com/problems/k-closest-points-to-origin/)|⭐⭐⭐|
-|38|Reorganize String|Medium|[Link](https://leetcode.com/problems/reorganize-string/)|⭐⭐|
-
-### DEQUE / SLIDING WINDOW MAXIMUM (1) ⭐ NEW
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|39|Sliding Window Maximum|Hard|[Link](https://leetcode.com/problems/sliding-window-maximum/)|⭐⭐⭐|
-
-### STRINGS - FOUNDATION (1) ⭐ NEW
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|40|First Unique Character in a String|Easy|[Link](https://leetcode.com/problems/first-unique-character-in-a-string/)|⭐⭐|
-
----
-
-## CORE: (36 PROBLEMS)
-
-### BINARY SEARCH (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|41|Binary Search|Easy|[Link](https://leetcode.com/problems/binary-search/)|⭐⭐|
-|42|Search in Rotated Sorted Array|Medium|[Link](https://leetcode.com/problems/search-in-rotated-sorted-array/)|⭐⭐⭐|
-|43|Find Minimum in Rotated Sorted Array|Medium|[Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|⭐⭐⭐|
-|44|Find First and Last Position|Medium|[Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|⭐⭐⭐|
-|45|Find Peak Element|Medium|[Link](https://leetcode.com/problems/find-peak-element/)|⭐⭐⭐|
-|46|Median of Two Sorted Arrays|Hard|[Link](https://leetcode.com/problems/median-of-two-sorted-arrays/)|⭐⭐⭐|
-
-### LINKED LISTS (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|47|Reverse Linked List|Easy|[Link](https://leetcode.com/problems/reverse-linked-list/)|⭐⭐⭐|
-|48|Merge Two Sorted Lists|Easy|[Link](https://leetcode.com/problems/merge-two-sorted-lists/)|⭐⭐⭐|
-|49|Merge K Sorted Lists|Hard|[Link](https://leetcode.com/problems/merge-k-sorted-lists/)|⭐⭐⭐|
-|50|Remove Nth Node From End|Medium|[Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|⭐⭐⭐|
-|51|Linked List Cycle|Easy|[Link](https://leetcode.com/problems/linked-list-cycle/)|⭐⭐⭐|
-|52|Linked List Cycle II|Medium|[Link](https://leetcode.com/problems/linked-list-cycle-ii/)|⭐⭐⭐|
-|53|Reorder List|Medium|[Link](https://leetcode.com/problems/reorder-list/)|⭐⭐|
-|54|Copy List with Random Pointer|Medium|[Link](https://leetcode.com/problems/copy-list-with-random-pointer/)|⭐⭐⭐|
-
-### TREES - DFS/BFS (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|55|Invert Binary Tree|Easy|[Link](https://leetcode.com/problems/invert-binary-tree/)|⭐⭐⭐|
-|56|Maximum Depth of Binary Tree|Easy|[Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|⭐⭐⭐|
-|57|Same Tree|Easy|[Link](https://leetcode.com/problems/same-tree/)|⭐⭐|
-|58|Subtree of Another Tree|Easy|[Link](https://leetcode.com/problems/subtree-of-another-tree/)|⭐⭐⭐|
-|59|Binary Tree Level Order Traversal|Medium|[Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)|⭐⭐⭐|
-|60|Binary Tree Right Side View|Medium|[Link](https://leetcode.com/problems/binary-tree-right-side-view/)|⭐⭐⭐|
-|61|Lowest Common Ancestor of BST|Easy|[Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|⭐⭐⭐|
-|62|Lowest Common Ancestor of BT|Medium|[Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|⭐⭐⭐|
-
-### BST (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|63|Validate Binary Search Tree|Medium|[Link](https://leetcode.com/problems/validate-binary-search-tree/)|⭐⭐⭐|
-|64|Kth Smallest Element in BST|Medium|[Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|⭐⭐⭐|
-|65|Binary Search Tree Iterator|Medium|[Link](https://leetcode.com/problems/binary-search-tree-iterator/)|⭐⭐⭐|
-|66|Recover Binary Search Tree|Hard|[Link](https://leetcode.com/problems/recover-binary-search-tree/)|⭐⭐⭐|
-|67|Delete Node in BST|Medium|[Link](https://leetcode.com/problems/delete-node-in-a-bst/)|⭐⭐|
-|68|Serialize and Deserialize Binary Tree|Hard|[Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|⭐⭐⭐|
-
-### DESIGN (2)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|69|LRU Cache|Medium|[Link](https://leetcode.com/problems/lru-cache/)|⭐⭐⭐|
-|70|LFU Cache|Hard|[Link](https://leetcode.com/problems/lfu-cache/)|⭐⭐⭐|
-
-### GRAPHS - DFS/BFS (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|71|Number of Islands|Medium|[Link](https://leetcode.com/problems/number-of-islands/)|⭐⭐⭐|
-|72|Clone Graph|Medium|[Link](https://leetcode.com/problems/clone-graph/)|⭐⭐⭐|
-|73|Rotting Oranges|Medium|[Link](https://leetcode.com/problems/rotting-oranges/)|⭐⭐⭐|
-|74|Is Graph Bipartite|Medium|[Link](https://leetcode.com/problems/is-graph-bipartite/)|⭐⭐|
-|75|Course Schedule|Medium|[Link](https://leetcode.com/problems/course-schedule/)|⭐⭐⭐|
-|76|Course Schedule II|Medium|[Link](https://leetcode.com/problems/course-schedule-ii/)|⭐⭐⭐|
-
----
-
-## PATTERN MASTERY: (30 PROBLEMS)
-
-### BACKTRACKING (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|77|Permutations|Medium|[Link](https://leetcode.com/problems/permutations/)|⭐⭐⭐|
-|78|Permutations II|Medium|[Link](https://leetcode.com/problems/permutations-ii/)|⭐⭐⭐|
-|79|Combinations|Medium|[Link](https://leetcode.com/problems/combinations/)|⭐⭐⭐|
-|80|Combination Sum|Medium|[Link](https://leetcode.com/problems/combination-sum/)|⭐⭐⭐|
-|81|Combination Sum II|Medium|[Link](https://leetcode.com/problems/combination-sum-ii/)|⭐⭐⭐|
-|82|Letter Combinations of Phone|Medium|[Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|⭐⭐⭐|
-|83|N-Queens|Hard|[Link](https://leetcode.com/problems/n-queens/)|⭐⭐⭐|
-|84|Word Search|Medium|[Link](https://leetcode.com/problems/word-search/)|⭐⭐⭐|
-
-### GREEDY (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|85|Jump Game|Medium|[Link](https://leetcode.com/problems/jump-game/)|⭐⭐⭐|
-|86|Jump Game II|Medium|[Link](https://leetcode.com/problems/jump-game-ii/)|⭐⭐⭐|
-|87|Gas Station|Medium|[Link](https://leetcode.com/problems/gas-station/)|⭐⭐⭐|
-|88|Merge Intervals|Medium|[Link](https://leetcode.com/problems/merge-intervals/)|⭐⭐⭐|
-|89|Non-Overlapping Intervals|Medium|[Link](https://leetcode.com/problems/non-overlapping-intervals/)|⭐⭐⭐|
-|90|Min Deletion Cost to Make Array Sorted|Medium|[Link](https://leetcode.com/problems/minimum-cost-to-make-array-equal-with-rod-cutting/)|⭐|
-
-### DYNAMIC PROGRAMMING - 1D (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|91|Climbing Stairs|Easy|[Link](https://leetcode.com/problems/climbing-stairs/)|⭐⭐⭐|
-|92|House Robber|Medium|[Link](https://leetcode.com/problems/house-robber/)|⭐⭐⭐|
-|93|House Robber II|Medium|[Link](https://leetcode.com/problems/house-robber-ii/)|⭐⭐⭐|
-|94|Coin Change|Medium|[Link](https://leetcode.com/problems/coin-change/)|⭐⭐⭐|
-|95|Coin Change II|Medium|[Link](https://leetcode.com/problems/coin-change-2/)|⭐⭐⭐|
-|96|Decode Ways|Medium|[Link](https://leetcode.com/problems/decode-ways/)|⭐⭐⭐|
-|97|Longest Increasing Subsequence|Medium|[Link](https://leetcode.com/problems/longest-increasing-subsequence/)|⭐⭐⭐|
-|98|Word Break|Medium|[Link](https://leetcode.com/problems/word-break/)|⭐⭐⭐|
-
-### DYNAMIC PROGRAMMING - 2D (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|99|Unique Paths|Medium|[Link](https://leetcode.com/problems/unique-paths/)|⭐⭐⭐|
-|100|Unique Paths II|Medium|[Link](https://leetcode.com/problems/unique-paths-ii/)|⭐⭐⭐|
-|101|Longest Common Subsequence|Medium|[Link](https://leetcode.com/problems/longest-common-subsequence/)|⭐⭐⭐|
-|102|Edit Distance|Medium|[Link](https://leetcode.com/problems/edit-distance/)|⭐⭐⭐|
-|103|Longest Palindromic Subsequence|Medium|[Link](https://leetcode.com/problems/longest-palindromic-subsequence/)|⭐⭐|
-|104|Maximal Square|Medium|[Link](https://leetcode.com/problems/maximal-square/)|⭐⭐⭐|
-|105|Best Time to Buy and Sell Stock IV|Hard|[Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|⭐⭐⭐|
-|106|Burst Balloons|Hard|[Link](https://leetcode.com/problems/burst-balloons/)|⭐⭐⭐|
-
----
-
-## TRIE / PREFIX TREE (5) ⭐ NEW
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|107|Implement Trie (Prefix Tree)|Medium|[Link](https://leetcode.com/problems/implement-trie-prefix-tree/)|⭐⭐⭐|
-|108|Word Search II|Hard|[Link](https://leetcode.com/problems/word-search-ii/)|⭐⭐⭐|
-|109|Design Search Autocomplete System|Hard|[Link](https://leetcode.com/problems/design-search-autocomplete-system/)|⭐⭐⭐|
-|110|Replace Words|Medium|[Link](https://leetcode.com/problems/replace-words/)|⭐⭐|
-|111|Word Break II|Hard|[Link](https://leetcode.com/problems/word-break-ii/)|⭐⭐⭐|
-
----
-
-## ADVANCED & HARD: (38 PROBLEMS)
-
-### UNION-FIND (6)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|112|Accounts Merge|Medium|[Link](https://leetcode.com/problems/accounts-merge/)|⭐⭐⭐|
-|113|Redundant Connection|Medium|[Link](https://leetcode.com/problems/redundant-connection/)|⭐⭐⭐|
-|114|Number of Islands II|Hard|[Link](https://leetcode.com/problems/number-of-islands-ii/)|⭐⭐⭐|
-|115|Satisfiability of Equality Equations|Medium|[Link](https://leetcode.com/problems/satisfiability-of-equality-equations/)|⭐⭐|
-|116|Most Stones Removed|Medium|[Link](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|⭐⭐⭐|
-|117|Number of Connected Components|Medium|[Link](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|⭐⭐⭐|
-
-### ADVANCED GRAPHS (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|118|Dijkstra's Algorithm|Medium|[Link](https://leetcode.com/problems/network-delay-time/)|⭐⭐⭐|
-|119|Network Delay Time|Medium|[Link](https://leetcode.com/problems/network-delay-time/)|⭐⭐⭐|
-|120|Cheapest Flights Within K Stops|Medium|[Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|⭐⭐⭐|
-|121|Path with Maximum Probability|Medium|[Link](https://leetcode.com/problems/path-with-maximum-probability/)|⭐⭐|
-|122|Evaluate Division|Medium|[Link](https://leetcode.com/problems/evaluate-division/)|⭐⭐⭐|
-|123|Critical Connections in Network|Hard|[Link](https://leetcode.com/problems/critical-connections-in-a-network/)|⭐⭐⭐|
-|124|Alien Dictionary|Hard|[Link](https://leetcode.com/problems/alien-dictionary/)|⭐⭐⭐|
-|125|Reconstruct Itinerary|Hard|[Link](https://leetcode.com/problems/reconstruct-itinerary/)|⭐⭐⭐|
-
-### ADVANCED TREES (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|126|Binary Tree Maximum Path Sum|Hard|[Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|⭐⭐⭐|
-|127|Binary Tree Cameras|Hard|[Link](https://leetcode.com/problems/binary-tree-cameras/)|⭐⭐⭐|
-|128|Vertical Order Traversal|Hard|[Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|⭐⭐|
-|129|All Nodes Distance K in Tree|Medium|[Link](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|⭐⭐⭐|
-|130|Maximum Width of Binary Tree|Medium|[Link](https://leetcode.com/problems/maximum-width-of-binary-tree/)|⭐⭐|
-|131|Flatten Binary Tree to Linked List|Medium|[Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|⭐⭐⭐|
-|132|Largest Rectangle in Histogram|Hard|[Link](https://leetcode.com/problems/largest-rectangle-in-histogram/)|⭐⭐⭐|
-|133|Maximal Rectangle|Hard|[Link](https://leetcode.com/problems/maximal-rectangle/)|⭐⭐⭐|
-
-### ADVANCED DP (8)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|134|Wildcard Matching|Hard|[Link](https://leetcode.com/problems/wildcard-matching/)|⭐⭐⭐|
-|135|Regular Expression Matching|Hard|[Link](https://leetcode.com/problems/regular-expression-matching/)|⭐⭐⭐|
-|136|Best Time to Buy and Sell Stock III|Hard|[Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|⭐⭐⭐|
-|137|Frog Jump|Hard|[Link](https://leetcode.com/problems/frog-jump/)|⭐⭐|
-|138|Cherry Pickup|Hard|[Link](https://leetcode.com/problems/cherry-pickup/)|⭐⭐⭐|
-|139|Super Egg Drop|Hard|[Link](https://leetcode.com/problems/super-egg-drop/)|⭐⭐⭐|
-|140|Minimum Cost to Merge Stones|Hard|[Link](https://leetcode.com/problems/minimum-cost-to-merge-stones/)|⭐⭐⭐|
-|141|Remove Boxes|Hard|[Link](https://leetcode.com/problems/remove-boxes/)|⭐⭐⭐|
-
-### STRING ALGORITHMS - ADVANCED (4)
-
-| #   | Problem                       | Difficulty | LeetCode                                                             | Priority |
-| --- | ----------------------------- | ---------- | -------------------------------------------------------------------- | -------- |
-| 142 | Longest Valid Parentheses     | Hard       | [Link](https://leetcode.com/problems/longest-valid-parentheses/)     | ⭐⭐⭐      |
-| 143 | Longest Palindromic Substring | Medium     | [Link](https://leetcode.com/problems/longest-palindromic-substring/) | ⭐⭐       |
-| 144 | Group Anagrams                | Medium     | [Link](https://leetcode.com/problems/group-anagrams/)                | ⭐⭐⭐      |
-| 145 | Palindromic Substrings        | Medium     | [Link](https://leetcode.com/problems/palindromic-substrings/)        | ⭐⭐       |
-
-### BONUS OPTIONAL (2)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|147|Game of Life|Medium|[Link](https://leetcode.com/problems/game-of-life/)|⭐⭐|
-|148|The Skyline Problem|Hard|[Link](https://leetcode.com/problems/the-skyline-problem/)|⭐⭐|
-
-### MISCELLANEOUS HARD (3)
-
-|#|Problem|Difficulty|LeetCode|Priority|
-|---|---|---|---|---|
-|149|24 Game|Hard|[Link](https://leetcode.com/problems/24-game/)|⭐⭐|
-|150|Trapping Rain Water II|Hard|[Link](https://leetcode.com/problems/trapping-rain-water-ii/)|⭐⭐⭐|
-|151|Word Ladder II|Hard|[Link](https://leetcode.com/problems/word-ladder-ii/)|⭐⭐|
-
----
-
-## SUMMARY TABLE
-
-| Category              | Count   | Difficulty Breakdown | Priority |
-| --------------------- | ------- | -------------------- | -------- |
-| Arrays/Hashing        | 6       | 2E + 4M              | ⭐⭐⭐      |
-| Two Pointers          | 4       | 1E + 2M + 1H         | ⭐⭐⭐      |
-| Sliding Window        | 4       | 1E + 2M + 1H         | ⭐⭐⭐      |
-| Stack                 | 4       | 2E + 2M              | ⭐⭐⭐      |
-| Monotonic Stack       | 1       | 1E                   | ⭐⭐⭐      |
-| 2D Array / Matrix     | 5       | 0E + 5M              | ⭐⭐⭐      |
-| Bit Manipulation      | 5       | 2E + 3M              | ⭐⭐⭐      |
-| Math                  | 4       | 1E + 3M              | ⭐⭐⭐      |
-| Heap / Priority Queue | 5       | 0E + 4M + 1H         | ⭐⭐⭐      |
-| Deque                 | 1       | 0E + 0M + 1H         | ⭐⭐⭐      |
-| Strings (Foundation)  | 1       | 1E                   | ⭐⭐       |
-| Binary Search         | 6       | 1E + 4M + 1H         | ⭐⭐⭐      |
-| Linked Lists          | 8       | 2E + 4M + 2H         | ⭐⭐⭐      |
-| Trees - DFS/BFS       | 8       | 4E + 4M              | ⭐⭐⭐      |
-| BST                   | 6       | 1E + 3M + 2H         | ⭐⭐⭐      |
-| Design                | 2       | 0E + 1M + 1H         | ⭐⭐⭐      |
-| Graphs - DFS/BFS      | 6       | 0E + 6M              | ⭐⭐⭐      |
-| Backtracking          | 8       | 0E + 6M + 2H         | ⭐⭐⭐      |
-| Greedy                | 6       | 0E + 5M + 1H         | ⭐⭐⭐      |
-| DP - 1D               | 8       | 1E + 6M + 1H         | ⭐⭐⭐      |
-| DP - 2D               | 8       | 0E + 4M + 4H         | ⭐⭐⭐      |
-| Trie                  | 5       | 0E + 2M + 3H         | ⭐⭐⭐      |
-| Union-Find            | 6       | 0E + 4M + 2H         | ⭐⭐⭐      |
-| Advanced Graphs       | 8       | 0E + 4M + 4H         | ⭐⭐⭐      |
-| Advanced Trees        | 8       | 0E + 3M + 5H         | ⭐⭐⭐      |
-| Advanced DP           | 8       | 0E + 0M + 8H         | ⭐⭐⭐      |
-| Strings (Advanced)    | 4       | 0E + 3M + 1H         | ⭐⭐⭐      |
-| Bonus                 | 2       | 0E + 1M + 1H         | ⭐⭐       |
-| Misc                  | 3       | 0E + 0M + 3H         | ⭐⭐       |
-| **TOTAL**             | **150** | **42E + 83M + 16H**  | ✅        |
+### 1. ARRAYS, HASHING & SORTING (13 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy |
+| [ ] | 2 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy |
+| [ ] | 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy |
+| [ ] | 4 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium |
+| [ ] | 5 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium |
+| [ ] | 6 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium |
+| [ ] | 7 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy |
+| [ ] | 8 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy |
+| [ ] | 9 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy |
+| [ ] | 10 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium |
+| [ ] | 11 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | Medium |
+| [ ] | 12 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium |
+| [ ] | 13 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy |
+
+### 2. TWO POINTERS & IN-PLACE (8 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 14 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
+| [ ] | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium |
+| [ ] | 16 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium |
+| [ ] | 17 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard |
+| [ ] | 18 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy |
+| [ ] | 19 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium |
+| [ ] | 20 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy |
+| [ ] | 21 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium |
+
+### 3. SLIDING WINDOW & PREFIX SUM (7 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 22 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy |
+| [ ] | 23 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
+| [ ] | 24 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium |
+| [ ] | 25 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard |
+| [ ] | 26 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium |
+| [ ] | 27 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium |
+| [ ] | 28 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium |
+
+### 4. STACK & MONOTONIC LOGIC (9 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 29 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy |
+| [ ] | 30 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy |
+| [ ] | 31 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium |
+| [ ] | 32 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium |
+| [ ] | 33 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy |
+| [ ] | 34 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium |
+| [ ] | 35 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium |
+| [ ] | 36 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Hard |
+| [ ] | 37 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | Hard |
+
+### 5. INTERVALS & SCHEDULES (5 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 38 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium |
+| [ ] | 39 | [Non-Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium |
+| [ ] | 40 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium |
+| [ ] | 41 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy |
+| [ ] | 42 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium |
+
+### 6. 2D MATRIX (7 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 43 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium |
+| [ ] | 44 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium |
+| [ ] | 45 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium |
+| [ ] | 46 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium |
+| [ ] | 47 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium |
+| [ ] | 48 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium |
+| [ ] | 49 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy |
+
+### 7. BIT MANIPULATION (8 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 50 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy |
+| [ ] | 51 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy |
+| [ ] | 52 | [Single Number](https://leetcode.com/problems/single-number/) | Medium |
+| [ ] | 53 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium |
+| [ ] | 54 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium |
+| [ ] | 55 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium |
+| [ ] | 56 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy |
+| [ ] | 57 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium |
+
+### 8. MATH & RANDOMIZATION (9 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 58 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium |
+| [ ] | 59 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy |
+| [ ] | 60 | [Happy Number](https://leetcode.com/problems/happy-number/) | Medium |
+| [ ] | 61 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium |
+| [ ] | 62 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Medium |
+| [ ] | 63 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium |
+| [ ] | 64 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | Hard |
+| [ ] | 65 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | Medium |
+| [ ] | 66 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Medium |
+
+### 9. HEAP / PRIORITY QUEUE / DEQUE (7 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 67 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium |
+| [ ] | 68 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium |
+| [ ] | 69 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard |
+| [ ] | 70 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium |
+| [ ] | 71 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | Medium |
+| [ ] | 72 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard |
+| [ ] | 73 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy |
+
+### 10. LINKED LISTS (13 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 74 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy |
+| [ ] | 75 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy |
+| [ ] | 76 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard |
+| [ ] | 77 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium |
+| [ ] | 78 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy |
+| [ ] | 79 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium |
+| [ ] | 80 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium |
+| [ ] | 81 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium |
+| [ ] | 82 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy |
+| [ ] | 83 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium |
+| [ ] | 84 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard |
+| [ ] | 85 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy |
+| [ ] | 86 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Medium |
+
+### 11. BINARY SEARCH (9 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 87 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy |
+| [ ] | 88 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium |
+| [ ] | 89 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium |
+| [ ] | 90 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [ ] | 91 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium |
+| [ ] | 92 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard |
+| [ ] | 93 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy |
+| [ ] | 94 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | Medium |
+| [ ] | 95 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium |
+
+### 12. TREES & BST (22 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 96 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy |
+| [ ] | 97 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy |
+| [ ] | 98 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy |
+| [ ] | 99 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy |
+| [ ] | 100 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium |
+| [ ] | 101 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium |
+| [ ] | 102 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy |
+| [ ] | 103 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [ ] | 104 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium |
+| [ ] | 105 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium |
+| [ ] | 106 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium |
+| [ ] | 107 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Hard |
+| [ ] | 108 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |
+| [ ] | 109 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard |
+| [ ] | 110 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy |
+| [ ] | 111 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium |
+| [ ] | 112 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Medium |
+| [ ] | 113 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy |
+| [ ] | 114 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy |
+| [ ] | 115 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy |
+| [ ] | 116 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | Medium |
+| [ ] | 117 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | Easy |
+
+### 13. TRIES & STRING ALGORITHMS (12 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 118 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium |
+| [ ] | 119 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard |
+| [ ] | 120 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | Hard |
+| [ ] | 121 | [Replace Words](https://leetcode.com/problems/replace-words/) | Medium |
+| [ ] | 122 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard |
+| [ ] | 123 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard |
+| [ ] | 124 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |
+| [ ] | 125 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium |
+| [ ] | 126 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium |
+| [ ] | 127 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [ ] | 128 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy |
+| [ ] | 129 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium |
+| [ ] | 130 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium |
+
+### 14. GRAPHS & ADVANCED GRAPHS (19 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 131 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium |
+| [ ] | 132 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium |
+| [ ] | 133 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium |
+| [ ] | 134 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | Medium |
+| [ ] | 135 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium |
+| [ ] | 136 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium |
+| [ ] | 137 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium |
+| [ ] | 138 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium |
+| [ ] | 139 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium |
+| [ ] | 140 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium |
+| [ ] | 141 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium |
+| [ ] | 142 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard |
+| [ ] | 143 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium |
+| [ ] | 144 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium |
+| [ ] | 145 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium |
+| [ ] | 146 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | Medium |
+| [ ] | 147 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | Hard |
+| [ ] | 148 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | Hard |
+| [ ] | 149 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | Hard |
+
+### 15. BACKTRACKING (13 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 150 | [Permutations](https://leetcode.com/problems/permutations/) | Medium |
+| [ ] | 151 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | Medium |
+| [ ] | 152 | [Combinations](https://leetcode.com/problems/combinations/) | Medium |
+| [ ] | 153 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium |
+| [ ] | 154 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium |
+| [ ] | 155 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium |
+| [ ] | 156 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard |
+| [ ] | 157 | [Word Search](https://leetcode.com/problems/word-search/) | Medium |
+| [ ] | 158 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium |
+| [ ] | 159 | [Subsets](https://leetcode.com/problems/subsets/) | Medium |
+| [ ] | 160 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium |
+| [ ] | 161 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium |
+| [ ] | 162 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium |
+
+### 16. GREEDY (5 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 163 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium |
+| [ ] | 164 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium |
+| [ ] | 165 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium |
+| [ ] | 166 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy |
+| [ ] | 167 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium |
+
+### 17. DYNAMIC PROGRAMMING (29 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 168 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy |
+| [ ] | 169 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium |
+| [ ] | 170 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium |
+| [ ] | 171 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium |
+| [ ] | 172 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium |
+| [ ] | 173 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium |
+| [ ] | 174 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium |
+| [ ] | 175 | [Word Break](https://leetcode.com/problems/word-break/) | Medium |
+| [ ] | 176 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium |
+| [ ] | 177 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium |
+| [ ] | 178 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium |
+| [ ] | 179 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium |
+| [ ] | 180 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium |
+| [ ] | 181 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium |
+| [ ] | 182 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard |
+| [ ] | 183 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard |
+| [ ] | 184 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [ ] | 185 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium |
+| [ ] | 186 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium |
+| [ ] | 187 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard |
+| [ ] | 188 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium |
+| [ ] | 189 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium |
+| [ ] | 190 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard |
+| [ ] | 191 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard |
+| [ ] | 192 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [ ] | 193 | [Frog Jump](https://leetcode.com/problems/frog-jump/) | Hard |
+| [ ] | 194 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | Hard |
+| [ ] | 195 | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | Hard |
+| [ ] | 196 | [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | Hard |
+
+### 18. UNION-FIND (7 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 197 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Medium |
+| [ ] | 198 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium |
+| [ ] | 199 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard |
+| [ ] | 200 | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) | Medium |
+| [ ] | 201 | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | Medium |
+| [ ] | 202 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [ ] | 203 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium |
+
+### 19. DESIGN (4 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 204 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium |
+| [ ] | 205 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard |
+| [ ] | 206 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium |
+| [ ] | 207 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | Medium |
+
+### 20. ADVANCED TREES, HARD GRIDS & MISC (19 Problems)
+
+| Status | # | Problem | Difficulty |
+| :---: | :--- | :--- | :--- |
+| [ ] | 208 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard |
+| [ ] | 209 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Hard |
+| [ ] | 210 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [ ] | 211 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | Medium |
+| [ ] | 212 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium |
+| [ ] | 213 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium |
+| [ ] | 214 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard |
+| [ ] | 215 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | Hard |
+| [ ] | 216 | [Remove Boxes](https://leetcode.com/problems/remove-boxes/) | Hard |
+| [ ] | 217 | [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium |
+| [ ] | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | Hard |
+| [ ] | 219 | [24 Game](https://leetcode.com/problems/24-game/) | Hard |
+| [ ] | 220 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | Hard |
+| [ ] | 221 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Hard |
+| [ ] | 222 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium |
+| [ ] | 223 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium |
+| [ ] | 224 | [Min Deletion Size](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Medium |
+| [ ] | 225 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [ ] | 226 | [Dijkstra's Algorithm](https://leetcode.com/problems/network-delay-time/) | Medium |
