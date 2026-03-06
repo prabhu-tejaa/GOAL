@@ -227,30 +227,30 @@ Here's your complete 184-problem list formatted for Excel:
 
 ## 📊 QUICK SUMMARY
 
-|Phase|Section|Count|
-|---|---|---|
-|Phase 1|Arrays & Hashing|10|
-|Phase 1|Two Pointers|6|
-|Phase 1|Sliding Window|6|
-|Phase 1|Stack|6|
-|Phase 1|Binary Search|7|
-|Phase 1|2D Matrix|4|
-|Phase 1|Bit Manipulation|6|
-|Phase 2|Linked Lists|11|
-|Phase 2|Trees|15|
-|Phase 2|Heap / Priority Queue|7|
-|Phase 2|Graphs|11|
-|Phase 3|Backtracking|10|
-|Phase 3|Greedy|9|
-|Phase 3|1D Dynamic Programming|12|
-|Phase 3|2D Dynamic Programming|9|
-|Phase 4|2D Dynamic Programming|2|
-|Phase 4|Trie|4|
-|Phase 4|Union-Find|5|
-|Phase 4|Advanced Graphs|10|
-|Phase 4|Design|6|
-|Phase 4|Math & Geometry|8|
-|Phase 5|Hard DP|10|
-|Phase 5|Hard Trees & Stack|6|
-|Phase 5|Bonus Frequently Asked|4|
-|**TOTAL**||**184**|
+| Phase     | Section                | Count   |
+| --------- | ---------------------- | ------- |
+| Phase 1   | Arrays & Hashing       | 10      |
+| Phase 1   | Two Pointers           | 6       |
+| Phase 1   | Sliding Window         | 6       |
+| Phase 1   | Stack                  | 6       |
+| Phase 1   | Binary Search          | 7       |
+| Phase 1   | 2D Matrix              | 4       |
+| Phase 1   | Bit Manipulation       | 6       |
+| Phase 2   | Linked Lists           | 11      |
+| Phase 2   | Trees                  | 15      |
+| Phase 2   | Heap / Priority Queue  | 7       |
+| Phase 2   | Graphs                 | 11      |
+| Phase 3   | Backtracking           | 10      |
+| Phase 3   | Greedy                 | 9       |
+| Phase 3   | 1D Dynamic Programming | 12      |
+| Phase 3   | 2D Dynamic Programming | 9       |
+| Phase 4   | 2D Dynamic Programming | 2       |
+| Phase 4   | Trie                   | 4       |
+| Phase 4   | Union-Find             | 5       |
+| Phase 4   | Advanced Graphs        | 10      |
+| Phase 4   | Design                 | 6       |
+| Phase 4   | Math & Geometry        | 8       |
+| Phase 5   | Hard DP                | 10      |
+| Phase 5   | Hard Trees & Stack     | 6       |
+| Phase 5   | Bonus Frequently Asked | 4       |
+| **TOTAL** |                        | **184** |
