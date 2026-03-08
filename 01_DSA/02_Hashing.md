@@ -232,3 +232,72 @@ map.get(null);              // ✅ Returns "value"
 Interviewer: "Why O(n)? What about worst case?" 
 
 You: "HashMap operations (get, put, containsKey) are O(1) on average because the hash function distributes keys evenly. Worst case is O(n) if all keys hash to the same bucket, but Java's HashMap resizes automatically to keep load factor below 0.75, so worst case is rare in practice."
+
+# **HashSet**
+
+## **What is HashSet?**
+
+HashSet is a **data structure** that stores **only values** (no key-value pairs). It uses **hashing internally** (like HashMap) but doesn't store keys.
+
+**Purpose:** Check if something exists in a set, store unique values.
+
+```
+HashMap:  {101 → "Alice", 17 → "seventeen"}  (key-value pairs)
+HashSet:  {101, 17, 42}                      (just values)
+```
+
+## **Internal Structure**
+
+HashSet internally uses a HashMap!
+
+```
+// Behind the scenes, HashSet uses HashMap private transient 
+HashMap<E,Object> map; 
+// When you add to HashSet: 
+hashSet.add(101); 
+// Actually does: map.put(101, PRESENT); 
+```
+
+So HashSet is basically: 
+- **Array of buckets** (like HashMap) 
+- Each bucket has a **linked list** (or tree) 
+- But stores **only the value, not a key-value pair** 
+## **How it Works** 
+### **add(value)**  
+hashSet.add(101);
+1. Hash the value: hash(101) = 1 
+2. Go to index 1 in array 
+3. Add 101 to the linked list at that bucket 
+4. Time: O(1) average 
+### **contains(value)**  
+hashSet.contains(101);
+1. Hash the value: hash(101) = 1 
+2. Go to index 1 in array 
+3. Search linked list for 101 
+4. Return true/false 
+5. Time: O(1) average 
+### **remove(value)** 
+hashSet.remove(101);
+1. Hash the value: hash(101) = 1 
+2. Go to index 1 in array 
+3. Remove 101 from linked list 
+4. Time: O(1) average
+
+## **Time Complexity**
+
+|Operation|Time|Space|
+|---|---|---|
+|**add(value)**|O(1) avg, O(n) worst|O(1)|
+|**contains(value)**|O(1) avg, O(n) worst|O(1)|
+|**remove(value)**|O(1) avg, O(n) worst|O(1)|
+|**Iterate all**|O(n)|-|
+
+**Space Complexity:** O(n) where n = number of elements
+
+## **HashSet Methods**
+
+```
+HashSet<Integer> set = new HashSet<>(); 
+set.add(101); // Add element 
+set.contains(101); // Check if exists: true/false set.remove(101); // Remove element set.size(); // Number of elements set.isEmpty(); // Is empty? set.clear(); // Remove all set.iterator(); // Iterate through elements
+```
