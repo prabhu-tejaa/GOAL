@@ -299,5 +299,118 @@ hashSet.remove(101);
 ```
 HashSet<Integer> set = new HashSet<>(); 
 set.add(101); // Add element 
-set.contains(101); // Check if exists: true/false set.remove(101); // Remove element set.size(); // Number of elements set.isEmpty(); // Is empty? set.clear(); // Remove all set.iterator(); // Iterate through elements
+set.contains(101); // Check if exists: true/false 
+set.remove(101); // Remove element 
+set.size(); // Number of elements 
+set.isEmpty(); // Is empty? 
+set.clear(); // Remove all 
+set.iterator(); // Iterate through elements
 ```
+
+Example:
+```
+HashSet<Integer> seen = new HashSet<>(); 
+for (int num : nums) { 
+	if (seen.contains(num)) { 
+		return true; // Duplicate found 
+		} 
+	seen.add(num); 
+} 
+return false;
+```
+
+**Why HashSet?** We only care about existence, not storing indices. HashSet is lighter than HashMap.
+
+# **TreeMap**
+
+TreeMap is a **data structure** that stores **key-value pairs** (like HashMap) but **keeps them sorted by key**. 
+**Purpose:** Store key-value pairs in sorted order.
+
+```
+HashMap: {17→"seventeen", 101→"Alice"} (random order) 
+TreeMap: {1→"one", 17→"seventeen", 101→"Alice"} (sorted by key)
+```
+
+## **Internal Structure**
+
+TreeMap uses a **Red-Black Tree** (balanced binary search tree), NOT an array.
+
+![[Pasted image 20260308222231.png]]
+
+**Why Red-Black Tree?** 
+- Keeps keys sorted 
+- Balanced (doesn't get too tall on one side) 
+- O(log n) operations
+
+## **How it Works** 
+### **put(key, value)**
+
+```
+treeMap.put(17, "seventeen"); 
+1. Find correct position in tree (maintaining sorted order) 
+2. Insert the key-value pair 
+3. Rebalance if needed 
+4. Time: O(log n)
+```
+
+### **get(key)**
+
+```
+treeMap.get(17);
+1. Search tree for key 17 
+2. Return value if found 
+3. Time: O(log n)
+```
+
+## **Time Complexity**
+
+|Operation|Time|Space|
+|---|---|---|
+|**put(K, V)**|O(log n)|O(1)|
+|**get(K)**|O(log n)|O(1)|
+|**containsKey(K)**|O(log n)|O(1)|
+|**remove(K)**|O(log n)|O(1)|
+|**Iterate (sorted)**|O(n)|-|
+
+**Space Complexity:** O(n) where n = number of elements
+
+### TreeMap Methods
+
+```
+TreeMap<Integer, String> treeMap = new TreeMap<>();
+
+treeMap.put(17, "seventeen");      // Add pair
+treeMap.get(17);                   // Get value: O(log n)
+treeMap.containsKey(17);           // Check if key exists: O(log n)
+treeMap.remove(17);                // Remove: O(log n)
+treeMap.firstKey();                // Smallest key
+treeMap.lastKey();                 // Largest key
+treeMap.headMap(100);              // All keys < 100
+treeMap.tailMap(50);               // All keys >= 50
+treeMap.keySet();                  // All keys in sorted order
+```
+
+```
+Do you need KEY → VALUE mapping? 
+│ 
+├─ YES: Do you need sorted order? 
+│ 	├─ YES → TreeMap (O(log n) but sorted) 
+│ 	└─ NO → HashMap (O(1), fastest) 
+└─ NO: Just checking if value exists? 
+	└─ HashSet (lighter, O(1))
+```
+
+# **HashMap vs HashSet vs TreeMap**
+
+|Feature|HashMap|HashSet|TreeMap|
+|---|---|---|---|
+|**Stores**|Key-value pairs|Only values|Key-value pairs|
+|**Internal Structure**|Array + linked lists|Array + linked lists|Red-Black tree|
+|**put/add(K,V)**|O(1) avg|O(1) avg|O(log n)|
+|**get(K)**|O(1) avg|O(1) avg|O(log n)|
+|**contains(K)**|O(1) avg|O(1) avg|O(log n)|
+|**remove(K)**|O(1) avg|O(1) avg|O(log n)|
+|**Sorted?**|❌ No|❌ No|✅ Yes|
+|**Iteration Order**|Random|Random|Sorted by key|
+|**Null Support**|1 null key|1 null value|No nulls|
+|**Use When**|Key→value mapping|Just existence check|Need sorted order|
