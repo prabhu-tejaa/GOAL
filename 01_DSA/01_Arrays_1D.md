@@ -1,4 +1,5 @@
 
+09-03-2026 - 10pm
 ## **BASICS**
 
 ### **What is a 1D Array?**
@@ -445,6 +446,47 @@ for (int i = toRemove.size() - 1; i >= 0; i--) {
 - Choose right algorithm: O(n log n) sorting vs O(n) linear search
 - Use primitive arrays for better performance than ArrayList
 
----
 
-Done! 🔥 Add this to your notes and you're solid on Arrays.
+Arrays.sort() code
+
+```
+public static void quickSort(int[] arr) {
+    if (arr.length == 0) return;
+    quickSortHelper(arr, 0, arr.length - 1);
+}
+
+private static void quickSortHelper(int[] arr, int left, int right) {
+    if (left < right) {
+        int pivot = partition(arr, left, right);
+        quickSortHelper(arr, left, pivot - 1);
+        quickSortHelper(arr, pivot + 1, right);
+    }
+}
+
+private static int partition(int[] arr, int left, int right) {
+    int pivot = arr[right];  // Choose last element as pivot
+    int i = left - 1;
+    
+    for (int j = left; j < right; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            // Swap
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    
+    // Swap pivot to correct position
+    int temp = arr[i + 1];
+    arr[i + 1] = arr[right];
+    arr[right] = temp;
+    
+    return i + 1;
+}
+
+// Usage
+int[] arr = {50, 20, 30, 10, 40};
+quickSort(arr);
+System.out.println(Arrays.toString(arr));  // [10, 20, 30, 40, 50]
+```
