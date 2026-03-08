@@ -44,11 +44,82 @@ Array Index 1:
 │  key      │ 101             │
 │  value    │ "Alice"         │
 │  hash     │ 1 (bucket index)│
-│  next     │ → (pointer)     │
+│  next     │ → (null)     │
 └─────────────────────────────┘
 ```
 
-	
+In Java’s `HashMap`, the default initial length (capacity) of the array is **16**.
+
+Why 16? (The Power of 2)
+The length is always a **power of 2** (2n). It starts at 16 (2^4), and every time it grows, it doubles (32,64,128…).
+
+Example:
+```
+HashMap<Integer, Integer> map = new HashMap<>();
+map.put(101, "Alice");
+```
+
+HashMap methods:
+
+- **put(K key, V value)**: Adds a key-value pair. If the key exists, it updates the value.
+
+- **get(Object key)**: Returns the value for a key, or `null` if the key is not found.
+
+- **containsKey(Object key)**: Returns `true` if the key exists. Essential for checking "seen" elements.
+
+- **getOrDefault(K key, V defaultValue)**: Returns the value for the key, or the `defaultValue` if the key is missing. (Best for counting frequencies).
+
+- **putIfAbsent(K key, V value)**: Adds the pair only if the key is not already present.
+
+- **computeIfAbsent(K key, Function)**: If the key is missing, it computes a value (like `new ArrayList()`) and adds it. (Best for Group Anagrams or Adjacency Lists).
+
+- **remove(Object key)**: Removes the key-value pair for the specified key.
+
+- **size()**: Returns the number of key-value pairs currently in the map.
+
+- **isEmpty()**: Returns `true` if the map contains no key-value pairs.
+
+- **keySet()**: Returns a `Set` of all keys. Use this to iterate through keys only.
+
+- **values()**: Returns a `Collection` of all values.
+
+- **entrySet()**: Returns a `Set` of `Map.Entry<K, V>`. The most efficient way to loop when you need both Key and Value.
+
+- **clear()**: Removes all key-value pairs from the map.
+
+### **Hash Collisions**
+What happens when two keys hash to the same index?
+**Java's Solution: Chaining**
+Instead of a single value, each bucket stores a **linked list** (or tree in Java 8+) of entries:
+
+```
+Array Index 1:
+┌─────────────────────────────┐      ┌─────────────────────────────┐
+│  Entry (Node 1)             │      │  Entry (Node 2)             │
+├─────────────────────────────┤      ├─────────────────────────────┤
+│  key      │ 101             │      │  key      │ 17              │
+│  value    │ "Alice"         │      │  value    │ "seventeen"     │
+│  hash     │ 1               │      │  hash     │ 1               │
+│  next     │ ──────────────→ │──────→  next     │ null            │
+└─────────────────────────────┘      └─────────────────────────────┘
+           ↑
+      First node
+     (head of list)
+```
+
+### **Time complexity with collisions:**
+
+- Best case (no collisions): O(1)
+- Worst case (all collisions): O(n) if all keys hash to same index
+- Average case (good hash function): O(1)
+
+
+
+
+
+
+
+
 ## **HashMap Internals (The Foundation)**
 
 ### **What is a HashMap?**
@@ -68,12 +139,6 @@ Index 4: [key=104, value="Charlie"]
 HashMap<Integer, String> map = new HashMap<>();
 map.put(101, "Alice");      // hash(101) → index 1
 map.get(101);               // hash(101) → index 1 → O(1)
-```
-
-### **Hash Collisions (The Problem)**
-
-What happens when two keys hash to the same index?
-```
 HashMap<Integer, String> map = new HashMap<>();
 map.put(1, "one");
 map.put(17, "seventeen");
