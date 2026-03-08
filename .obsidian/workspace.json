@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Private Companies.md",
+                "file": "01_DSA/02_HashMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private Companies"
+              "title": "02_HashMap"
             }
           }
         ]
@@ -193,10 +193,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "051e8cf18e1b7c1c",
+  "active": "a57e2dec1a83e9ec",
   "lastOpenFiles": [
-    "DSA.md",
+    "01_DSA/01_Arrays.md",
+    "01_DSA/02_HashMap.md",
+    "01_DSA/00_Time & Space Complexity.md",
     "05_Job Hunt/Private Companies.md",
+    "099_Bosscoder",
+    "DSA.md",
     "06_Daily_Logs/2026-02-23.md",
     "06_Daily_Logs/2026-02-24 1.md",
     "Untitled 1.canvas",
@@ -210,22 +214,19 @@
     "05_Job Hunt/applications/TCS.md",
     "05_Job Hunt/applications/Google.md",
     "05_Job Hunt/applications/JPMC.md",
-    "01_DSA/DSA (Linear)/Topics/Search.md",
-    "01_DSA/DSA (Linear)/02_Day2/04_74. Search a 2D Matrix.md",
-    "01_DSA/DSA (Linear)/Topics/TwoPointer.md",
-    "01_DSA/DSA (Linear)/Topics/HashMap.md",
-    "01_DSA/DSA (Linear)/Topics/Arrays.md",
-    "01_DSA/DSA (Linear)/Topics",
-    "01_DSA/DSA (Linear)/01_Day1/05_74. Search a 2D Matrix.md",
-    "01_DSA/DSA (Linear)/01_Day1/06_2498. Frog Jump II.md",
-    "01_DSA/Time & Space Complexity.md",
-    "01_DSA/DSA (Linear)/02_Day2",
+    "099_Bosscoder/DSA (Linear)/Topics/Search.md",
+    "099_Bosscoder/DSA (Linear)/02_Day2/04_74. Search a 2D Matrix.md",
+    "099_Bosscoder/DSA (Linear)/Topics/TwoPointer.md",
+    "099_Bosscoder/DSA (Linear)/Topics/HashMap.md",
+    "099_Bosscoder/DSA (Linear)/Topics/Arrays.md",
+    "099_Bosscoder/DSA (Linear)/Topics",
+    "099_Bosscoder/DSA (Linear)/01_Day1/05_74. Search a 2D Matrix.md",
+    "099_Bosscoder/DSA (Linear)/01_Day1/06_2498. Frog Jump II.md",
+    "099_Bosscoder/DSA (Linear)/02_Day2",
     "01_DSA/DSA (Linear)/01_Day1/02_Day2.md",
     "05_Job Hunt/applications/Eli Lilly.md",
-    "01_DSA/DSA (Linear)/01_Day1/07_135. Candy.md",
-    "01_DSA/DSA (Linear)/01_Day1/04_2022. Convert 1D Array Into 2D Array.md",
-    "01_DSA/DSA (Linear)/01_Day1/03_54. Spiral Matrix.md",
-    "01_DSA/DSA (Linear)/01_Day1",
+    "099_Bosscoder/DSA (Linear)/01_Day1/07_135. Candy.md",
+    "099_Bosscoder/DSA (Linear)/01_Day1",
     "Untitled.canvas",
     "Pasted image 20260223174446.png",
     "Pasted image 20260223174253.png",
@@ -234,7 +235,6 @@
     "02_System_Design/01_LLD/03_UML",
     "04_Tech Stack/Electron.js",
     "04_Tech Stack/Ionic",
-    "04_Tech Stack/SQL",
-    "04_Tech Stack/Node.js"
+    "04_Tech Stack/SQL"
   ]
 }
