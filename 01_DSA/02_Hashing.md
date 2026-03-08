@@ -10,7 +10,8 @@ Input: "Bob"    →  [Hash Function]  →  Output: 3 (a number)
 
 ## **HASHMAP = Data Structure**
 
-HashMap is a **data structure** that USES hashing internally.
+HashMap is a **data structure** that stores data in **key-value pairs**. It USES hashing internally. 
+**HashMap:** Scattered memory.
 
 ```
 HashMap uses hashing to:
