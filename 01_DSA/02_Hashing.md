@@ -132,120 +132,35 @@ To fix this, Java 8 introduced **Treeification**:
     
 - **The Benefit:** Searching a list takes O(n), but searching a balanced tree takes O(logn). It prevents a "Hash Collision Attack" from slowing down your app.
 
-**Load Factor**
+### **Load Factor**
 It is a measure of how full the `HashMap` is allowed to get before its capacity is automatically increased.
 
 - **Default Value:** `0.75` (75%).
-    
 - **Why 0.75?** It’s a trade-off. A higher value (like 0.9) saves memory but increases collisions. A lower value (like 0.5) reduces collisions but wastes memory.
 
-**Resizing**:
+### **Resizing**:
+When you reach that 75% limit, you don't just add one more slot. You **double** the size of the lot to **32 slots**.
 It happens when `Size > (Capacity * Load Factor)`.
 
 - For a default map: `Size > (16 * 0.75)`. Once you add the **13th element**, it resizes.
-    
-
 ### What happens during Resize? (O(n))
 
 1. **New Array:** A new internal array is created with **double** the capacity (e.g., from 16 to 32).
-    
 2. **Rehashing:** Every single existing element is "re-calculated" because the formula `(capacity - 1) & hash` changes when capacity changes.
-    
 3. **Transfer:** All elements are moved to their new positions in the larger array.
-
-
 
 ### **Time complexity:**
 - Best case (no collisions): O(1)
 - Worst case (all collisions): O(n) if all keys hash to same index
 - Average case (good hash function): O(1)
 
-_"What is the worst-case time complexity of a HashMap search?"_
-
+**_"What is the worst case time complexity of a HashMap search?"_**
 - **Before Java 8:** O(n) (because of long LinkedLists).
-    
 - **After Java 8:** O(logn) (because long lists become Trees).
+	
 
 
-
-
-
-
-
-## **HashMap Internals (The Foundation)**
-
-### **What is a HashMap?**
-
-A HashMap is a **hash table** data structure that stores key-value pairs. It uses a **hash function** to map keys to indices in an internal array, enabling O(1) average-case lookup.
-
-**Visual:**
-
-Internal Array (Buckets):
-Index 0: [null]
-Index 1: [key=101, value="Alice"]
-Index 2: [null]
-Index 3: [key=203, value="Bob"]
-Index 4: [key=104, value="Charlie"]
-...
-
-HashMap<Integer, String> map = new HashMap<>();
-map.put(101, "Alice");      // hash(101) → index 1
-map.get(101);               // hash(101) → index 1 → O(1)
-HashMap<Integer, String> map = new HashMap<>();
-map.put(1, "one");
-map.put(17, "seventeen");
-
-// If array length = 16:
-// hash(1) = 1 % 16 = 1
-// hash(17) = 17 % 16 = 1  ← COLLISION! Same index
-
-**Java's Solution: Chaining**
-
-Instead of a single value, each bucket stores a **linked list** (or tree in Java 8+) of entries:
-
-Internal Array:
-Index 1: [Entry(1, "one")] → [Entry(17, "seventeen")]
-         (linked list of collisions)
-
-map.get(17):
-  1. Compute index: 17 % 16 = 1
-  2. Go to index 1
-  3. Traverse linked list: check if key == 17
-  4. Found! Return "seventeen"
-```
-
-**Time complexity with collisions:**
-
-- Best case (no collisions): O(1)
-- Worst case (all collisions): O(n) if all keys hash to same index
-- Average case (good hash function): O(1)
-### **Load Factor & Resizing**
-
-**Load Factor** = (number of entries) / (array capacity)
-
-java
-
-```java
-HashMap<Integer, String> map = new HashMap<>();
-// Default initial capacity: 16
-// Default load factor: 0.75
-
-// When size > 16 * 0.75 = 12:
-// HashMap automatically resizes to 32, rehashes all entries
-```
-
-**Why resize?**
-
-- As more entries are added, collisions increase
-- More collisions = longer linked lists = slower lookups
-- Resizing keeps the load factor low, maintaining O(1) average
-
-**Cost of resizing:**
-
-- Resizing is O(n) (rehash all existing entries)
-- But happens infrequently (amortized O(1) per insertion)
-
-### **1. WHEN to Use HashMap (Decision Making))**
+### **WHEN to Use HashMap (Decision Making))**
 	Use HashMap when:
 	✅ Need O(1) lookup → HashMap.containsKey(), HashMap.get()
 	✅ Need to store key-value pairs → cache, frequency, index mapping
@@ -293,22 +208,6 @@ HashMap<Integer, String> map = new HashMap<>();
 **Your answer:**
 
 > "HashMap uses a hash function to map keys to array indices. If there are no collisions, we get O(1) lookup. But in the worst case, if all keys hash to the same index (poor hash function or unlucky input), we'd have O(n) because we'd need to traverse a linked list of n collisions. However, Java's HashMap automatically resizes when load factor exceeds 0.75, which keeps collisions low on average."
-
-### HashMap: Essential Java Methods for DSA
-
-- **put(K key, V value)**: Adds a key-value pair. If the key exists, it updates the value.
-- **get(Object key)**: Returns the value for a key, or `null` if the key is not found.
-- **containsKey(Object key)**: Returns `true` if the key exists. Essential for checking "seen" elements.
-- **getOrDefault(K key, V defaultValue)**: Returns the value for the key, or the `defaultValue` if the key is missing. (Best for counting frequencies).
-- **putIfAbsent(K key, V value)**: Adds the pair only if the key is not already present.
-- **computeIfAbsent(K key, Function)**: If the key is missing, it computes a value (like `new ArrayList()`) and adds it. (Best for Group Anagrams or Adjacency Lists).
-- **remove(Object key)**: Removes the key-value pair for the specified key.
-- **size()**: Returns the number of key-value pairs currently in the map.
-- **isEmpty()**: Returns `true` if the map contains no key-value pairs.
-- **keySet()**: Returns a `Set` of all keys. Use this to iterate through keys only.
-- **values()**: Returns a `Collection` of all values.
-- **entrySet()**: Returns a `Set` of `Map.Entry<K, V>`. The most efficient way to loop when you need both Key and Value.
-- **clear()**: Removes all key-value pairs from the map.
 
 ### Key DSA Concepts (Theory)
 - **hashCode()**: Method used to determine the bucket index for a key.
