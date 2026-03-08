@@ -107,12 +107,64 @@ Array Index 1:
      (head of list)
 ```
 
-### **Time complexity with collisions:**
+Example:
 
+```
+HashMap<Integer, String> map = new HashMap<>();
+map.put(101, "Alice");      // hash(101) → index 1
+map.get(101);               // hash(101) → index 1 → O(1)
+HashMap<Integer, String> map = new HashMap<>();
+map.put(1, "one");
+map.put(17, "seventeen");
+
+// If array length = 16:
+// hash(1) = 1 % 16 = 1
+// hash(17) = 17 % 16 = 1  ← COLLISION! Same index
+```
+
+Normally, collisions are handled by a **LinkedList**. But if many keys land in the _same_ bucket, searching that list becomes slow O(n).
+
+To fix this, Java 8 introduced **Treeification**:
+
+- **The Threshold:** When a single bucket's LinkedList reaches **8 nodes**, and the total array capacity is at least **64** and its the array capacity is **<64** then the map will **Resize**
+    
+- **The Change:** The LinkedList is converted into a **Red-Black Tree** (a balanced binary search tree).
+    
+- **The Benefit:** Searching a list takes O(n), but searching a balanced tree takes O(logn). It prevents a "Hash Collision Attack" from slowing down your app.
+
+**Load Factor**
+It is a measure of how full the `HashMap` is allowed to get before its capacity is automatically increased.
+
+- **Default Value:** `0.75` (75%).
+    
+- **Why 0.75?** It’s a trade-off. A higher value (like 0.9) saves memory but increases collisions. A lower value (like 0.5) reduces collisions but wastes memory.
+
+**Resizing**:
+It happens when `Size > (Capacity * Load Factor)`.
+
+- For a default map: `Size > (16 * 0.75)`. Once you add the **13th element**, it resizes.
+    
+
+### What happens during Resize? (O(n))
+
+1. **New Array:** A new internal array is created with **double** the capacity (e.g., from 16 to 32).
+    
+2. **Rehashing:** Every single existing element is "re-calculated" because the formula `(capacity - 1) & hash` changes when capacity changes.
+    
+3. **Transfer:** All elements are moved to their new positions in the larger array.
+
+
+
+### **Time complexity:**
 - Best case (no collisions): O(1)
 - Worst case (all collisions): O(n) if all keys hash to same index
 - Average case (good hash function): O(1)
 
+_"What is the worst-case time complexity of a HashMap search?"_
+
+- **Before Java 8:** O(n) (because of long LinkedLists).
+    
+- **After Java 8:** O(logn) (because long lists become Trees).
 
 
 
