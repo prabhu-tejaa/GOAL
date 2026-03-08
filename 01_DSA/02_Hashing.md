@@ -1,4 +1,54 @@
 
+## **Hashing**
+Hashing is a **technique** that converts any input into a fixed number (hash code).
+```
+Input: "Alice"  →  [Hash Function]  →  Output: 5 (a number)
+Input: 101      →  [Hash Function]  →  Output: 1 (a number)
+Input: "Bob"    →  [Hash Function]  →  Output: 3 (a number)
+```
+**Purpose:** Convert large data into a small number (bucket index).
+
+## **HASHMAP = Data Structure**
+
+HashMap is a **data structure** that USES hashing internally.
+
+```
+HashMap uses hashing to:
+- Take your key
+- Hash it → get a number
+- Use that number as array index
+- Store your key-value pair there
+```
+
+### The Structure
+
+A `HashMap` is essentially an **Array**, but each "slot" in that array isn't just a single value it's the start of a **Linked List**.
+
+- **The Array (The Buckets):** This is the main structure. It has indices (0, 1, 2, 3...).
+    
+- **The Node (The Entry):** Each item you "put" into the map is wrapped in a `Node` object that contains:
+    
+    1. The **Key**
+        
+    2. The **Value**
+        
+    3. The **Hash**
+        
+    4. A **Pointer (`next`)** to the next Node (this is the Linked List part).
+
+```
+Array Index 1:
+┌─────────────────────────────┐
+│  Entry / Node               │
+├─────────────────────────────┤
+│  key      │ 101             │
+│  value    │ "Alice"         │
+│  hash     │ 1 (bucket index)│
+│  next     │ → (pointer)     │
+└─────────────────────────────┘
+```
+
+	
 ## **HashMap Internals (The Foundation)**
 
 ### **What is a HashMap?**
@@ -7,7 +57,6 @@ A HashMap is a **hash table** data structure that stores key-value pairs. It use
 
 **Visual:**
 
-```
 Internal Array (Buckets):
 Index 0: [null]
 Index 1: [key=101, value="Alice"]
