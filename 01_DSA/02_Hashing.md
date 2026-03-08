@@ -1,4 +1,83 @@
 
+## **HashMap Internals (The Foundation)**
+
+### **What is a HashMap?**
+
+A HashMap is a **hash table** data structure that stores key-value pairs. It uses a **hash function** to map keys to indices in an internal array, enabling O(1) average-case lookup.
+
+**Visual:**
+
+```
+Internal Array (Buckets):
+Index 0: [null]
+Index 1: [key=101, value="Alice"]
+Index 2: [null]
+Index 3: [key=203, value="Bob"]
+Index 4: [key=104, value="Charlie"]
+...
+
+HashMap<Integer, String> map = new HashMap<>();
+map.put(101, "Alice");      // hash(101) → index 1
+map.get(101);               // hash(101) → index 1 → O(1)
+```
+
+### **Hash Collisions (The Problem)**
+
+What happens when two keys hash to the same index?
+```
+HashMap<Integer, String> map = new HashMap<>();
+map.put(1, "one");
+map.put(17, "seventeen");
+
+// If array length = 16:
+// hash(1) = 1 % 16 = 1
+// hash(17) = 17 % 16 = 1  ← COLLISION! Same index
+
+**Java's Solution: Chaining**
+
+Instead of a single value, each bucket stores a **linked list** (or tree in Java 8+) of entries:
+
+Internal Array:
+Index 1: [Entry(1, "one")] → [Entry(17, "seventeen")]
+         (linked list of collisions)
+
+map.get(17):
+  1. Compute index: 17 % 16 = 1
+  2. Go to index 1
+  3. Traverse linked list: check if key == 17
+  4. Found! Return "seventeen"
+```
+
+**Time complexity with collisions:**
+
+- Best case (no collisions): O(1)
+- Worst case (all collisions): O(n) if all keys hash to same index
+- Average case (good hash function): O(1)
+### **Load Factor & Resizing**
+
+**Load Factor** = (number of entries) / (array capacity)
+
+java
+
+```java
+HashMap<Integer, String> map = new HashMap<>();
+// Default initial capacity: 16
+// Default load factor: 0.75
+
+// When size > 16 * 0.75 = 12:
+// HashMap automatically resizes to 32, rehashes all entries
+```
+
+**Why resize?**
+
+- As more entries are added, collisions increase
+- More collisions = longer linked lists = slower lookups
+- Resizing keeps the load factor low, maintaining O(1) average
+
+**Cost of resizing:**
+
+- Resizing is O(n) (rehash all existing entries)
+- But happens infrequently (amortized O(1) per insertion)
 
 ### **1. WHEN to Use HashMap (Decision Making))**
 	Use HashMap when:
