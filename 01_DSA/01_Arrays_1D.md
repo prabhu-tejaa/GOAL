@@ -1,7 +1,5 @@
 
-09-03-2026 - 10pm
-## **BASICS**
-
+09-03-2026 - 22:00
 ### **What is a 1D Array?**
 
 A 1D array is a **linear collection of elements** stored in **contiguous memory locations**.
