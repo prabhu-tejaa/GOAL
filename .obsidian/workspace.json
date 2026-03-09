@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DSA/01_Arrays_1D.md",
+                "file": "01_DSA/01_Arrays_1D_Dynamic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Arrays_1D"
+              "title": "01_Arrays_1D_Dynamic"
             }
           }
         ],
@@ -210,10 +210,12 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
+    "Pasted image 20260309140320.png",
+    "01_DSA/01_Arrays_1D_Static.md",
+    "01_DSA/01_Arrays_1D_Dynamic.md",
     "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
     "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
     "01_DSA/02_Hashing.md",
-    "01_DSA/01_Arrays_1D.md",
     "01_DSA/00_Time & Space Complexity.md",
     "01_DSA/1_Array&Hashing",
     "Pasted image 20260308222231.png",
@@ -241,9 +243,7 @@
     "099_Bosscoder/DSA (Linear)/Topics/Arrays.md",
     "099_Bosscoder/DSA (Linear)/Topics",
     "099_Bosscoder/DSA (Linear)/01_Day1/05_74. Search a 2D Matrix.md",
-    "099_Bosscoder/DSA (Linear)/01_Day1/06_2498. Frog Jump II.md",
     "099_Bosscoder/DSA (Linear)/02_Day2",
-    "01_DSA/DSA (Linear)/01_Day1/02_Day2.md",
     "099_Bosscoder/DSA (Linear)/01_Day1",
     "Untitled.canvas",
     "Pasted image 20260223174446.png",

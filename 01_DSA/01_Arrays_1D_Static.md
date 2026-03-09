@@ -3,6 +3,8 @@
 ### **What is a 1D Array?**
 
 A 1D array is a **linear collection of elements** stored in **contiguous memory locations**.
+- **`int[]`** = static array (fixed size at creation, cannot grow/shrink)
+- **`ArrayList<Integer>`** = dynamic array (resizable, grows as you add elements)
 
 ```
 Array: [10, 20, 30, 40, 50]
@@ -32,9 +34,9 @@ Think of it like a **row of houses on a street**: If you have a 5-element array,
 
 - **1 Byte** = 8 bits.
 - **4 Bytes** = 4 * 8 = **32 bits**.
-(- On a 32-bit system, a pointer is **4 bytes**.
-    
-- On a 64-bit system, a pointer is **8 bytes**.)
+
+- On a 32-bit system, a pointer is **4 bytes**. 
+- On a 64-bit system, a pointer is **8 bytes**.
     
 Every "bit" is a tiny switch that can be either 0 or 1 (2 possibilities). So, when you have 32 bits, the number of unique combinations you can make is **2 raised to the power of 32**.
 
@@ -527,3 +529,29 @@ int[] arr = {50, 20, 30, 10, 40};
 quickSort(arr);
 System.out.println(Arrays.toString(arr));  // [10, 20, 30, 40, 50]
 ```
+
+
+## Static Array (`int[]`) - Memory Layout
+
+java
+
+```java
+int[] arr = new int[5];
+```
+
+**Memory structure:**
+- Each `int` = **4 bytes**
+- Array of 5 ints = **5 × 4 = 20 bytes** (contiguous block)
+- Array reference itself = **8 bytes** (on 64-bit JVM)
+- **Total heap memory = 28 bytes**
+
+**Visual:**
+```
+arr → [Heap]
+       |arr[0]|arr[1]|arr[2]|arr[3]|arr[4]|
+       | 4B  | 4B  | 4B  | 4B  | 4B  |
+       └─────────────────────────────────┘
+       Contiguous memory block (20 bytes)
+````
+
+**Key:** Elements are **side-by-side in memory**, instant O(1) random access.
