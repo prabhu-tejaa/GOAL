@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
+                "file": "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_242.Valid_Anagram"
+              "title": "2351. First Letter to Appear Twice"
             }
           }
         ],
@@ -210,6 +210,8 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
+    "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
+    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "01_DSA/00_Time & Space Complexity.md",
     "01_DSA/01_Arrays_1D_Static.md",
     "00_Java_Fundementals/Java_Fundamentals_Loops_Conditionals.md",
@@ -217,7 +219,6 @@
     "00_Java_Fundementals",
     "01_DSA/02_Hashing.md",
     "01_DSA/01_Arrays_1D_Dynamic.md",
-    "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
     "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
@@ -243,7 +244,6 @@
     "099_Bosscoder/DSA (Linear)/02_Day2/04_74. Search a 2D Matrix.md",
     "099_Bosscoder/DSA (Linear)/Topics/TwoPointer.md",
     "099_Bosscoder/DSA (Linear)/Topics/HashMap.md",
-    "099_Bosscoder/DSA (Linear)/Topics/Arrays.md",
     "099_Bosscoder/DSA (Linear)/Topics",
     "099_Bosscoder/DSA (Linear)/02_Day2",
     "099_Bosscoder/DSA (Linear)/01_Day1",
