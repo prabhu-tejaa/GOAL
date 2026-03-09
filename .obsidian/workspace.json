@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DSA/1_Array&Hashing/01_TwoSum.md",
+                "file": "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_TwoSum"
+              "title": "02_242.Valid_Anagram"
             }
           }
         ],
@@ -210,8 +210,9 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
+    "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
+    "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
     "01_DSA/02_Hashing.md",
-    "01_DSA/1_Array&Hashing/01_TwoSum.md",
     "01_DSA/01_Arrays_1D.md",
     "01_DSA/1_Array&Hashing",
     "Pasted image 20260308222231.png",
@@ -243,7 +244,6 @@
     "099_Bosscoder/DSA (Linear)/01_Day1/06_2498. Frog Jump II.md",
     "099_Bosscoder/DSA (Linear)/02_Day2",
     "01_DSA/DSA (Linear)/01_Day1/02_Day2.md",
-    "05_Job Hunt/applications/Eli Lilly.md",
     "099_Bosscoder/DSA (Linear)/01_Day1",
     "Untitled.canvas",
     "Pasted image 20260223174446.png",
