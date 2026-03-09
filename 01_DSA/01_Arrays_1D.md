@@ -9,6 +9,44 @@ Array: [10, 20, 30, 40, 50]
 Index:  0   1   2   3   4
 ```
 
+**Contiguous memory** means that data is stored in one single, unbroken block in your computer's RAM.
+Think of it like a **row of houses on a street**: If you have a 5-element array, the computer finds a spot large enough for all five and places them right next to each other (House #1, House #2, House #3, etc.) without any gaps or other data in between.
+
+### **Key Characteristics**
+- **No Gaps:** Every element follows the previous one immediately in the memory address sequence.
+- **Fixed Order:** If the first element is at address `1000`, and each integer takes 4 bytes, the next element _must_ be at `1004`, then `1008`, and so on.
+- **Fast Access:** Because the computer knows exactly how "wide" each element is, it can jump to any specific index (like `array[500]`) instantly using simple math, rather than searching through the whole list.
+
+### **Common Data Type Sizes**
+
+| Data Type         | Size in Bytes    | Analogy                             |
+| ----------------- | ---------------- | ----------------------------------- |
+| **boolean**       | 1 byte (usually) | A simple On/Off light switch.       |
+| **char**          | 1 to 2 bytes     | A single character like 'A' or '$'. |
+| **int** (Integer) | **4 bytes**      | A standard whole number.            |
+| **float**         | 4 bytes          | A number with a decimal point.      |
+| **long**          | 8 bytes          | A very large whole number.          |
+| **double**        | 8 bytes          | A high-precision decimal number.    |
+
+### **The Conversion to Bits**
+
+- **1 Byte** = 8 bits.
+- **4 Bytes** = 4 * 8 = **32 bits**.
+(- On a 32-bit system, a pointer is **4 bytes**.
+    
+- On a 64-bit system, a pointer is **8 bytes**.)
+    
+Every "bit" is a tiny switch that can be either 0 or 1 (2 possibilities). So, when you have 32 bits, the number of unique combinations you can make is **2 raised to the power of 32**.
+
+### **The "Power" Calculation**
+
+2^32=4,294,967,296
+This means a 4-byte integer can store over **4.29 billion** different values.
+
+### **Why should you care?**
+When you are solving a LeetCode problem or designing a system (LLD):
+1. **Overflow:** If a problem says the input can be 109, a 4-byte `int` is fine. If the input can be 1012, a 4-byte `int` will **overflow** because 1012 is much larger than 231. You would need a 8-byte `long` (263 range).
+
 ### **Declaration in Java**
 
 ```java
@@ -37,6 +75,7 @@ Arrays in Java use **0-based indexing**:
 ### **Contiguous Memory Storage**
 
 Arrays are stored **consecutively** in memory.
+**consecutively** means things follow one another in a continuous, unbroken sequence like steps on a ladder or cars in a train.
 
 ```
 Memory Address:  1000  1004  1008  1012  1016
