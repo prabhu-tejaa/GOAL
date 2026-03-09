@@ -223,8 +223,6 @@ list.add(2);  // size = 2, capacity = 10 ✓
 list.add(11); // RESIZE TRIGGERED!
 ```
 
-```java
-
 **Resize process:**
 
 1. Create **new backing array** (capacity = 10 × 1.5 = 15)
@@ -248,13 +246,11 @@ list.add(11); // RESIZE TRIGGERED!
 - `add(index)` in middle: **O(n)** (must shift all elements)
 - Getting element: **O(1)** direct access via reference
 
-**Question: "Why use int[] over ArrayList<Integer>?"**
+**Question:**Why use int[] over ArrayList< Integer >?"
 
-- **Performance**: int[] is 6× more memory efficient per element
-- **Cache locality**: Contiguous memory = better CPU cache hits
-- **GC pressure**: No wrapper object allocation
-
----
+- Performance: int[] is 6× more memory efficient per element
+- Cache locality: Contiguous memory = better CPU cache hits
+- GC pressure: No wrapper object allocation
 
 ## Quick Memory Estimates
 
@@ -272,3 +268,13 @@ ArrayList<Integer> list = new ArrayList<>();
 ```
 
 **int[] wins on memory.** ArrayList wins on flexibility.
+
+## All Data Types - Size Chart
+
+| Type      | Primitive Size | Wrapper Size    | Reference Size |
+| --------- | -------------- | --------------- | -------------- |
+| `int`     | 4 bytes        | Integer = 16B   | 8 bytes        |
+| `long`    | 8 bytes        | Long = 24B      | 8 bytes        |
+| `double`  | 8 bytes        | Double = 24B    | 8 bytes        |
+| `boolean` | 1 byte         | Boolean = 17B   | 8 bytes        |
+| `char`    | 2 bytes        | Character = 18B | 8 bytes        |
