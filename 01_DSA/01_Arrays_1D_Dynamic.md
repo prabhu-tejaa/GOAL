@@ -278,3 +278,53 @@ ArrayList<Integer> list = new ArrayList<>();
 | `double`  | 8 bytes        | Double = 24B    | 8 bytes        |
 | `boolean` | 1 byte         | Boolean = 17B   | 8 bytes        |
 | `char`    | 2 bytes        | Character = 18B | 8 bytes        |
+
+# Additional learnings
+
+## When Array is Faster than HashMap
+
+**Only when:**
+
+1. **Fixed, small range of values** (like 26 letters)
+2. **Simple conversion to index** (like `c - 'a'`)
+
+**Why faster:**
+
+- Array: one math operation + direct memory access = O(1) with **low constant**
+- HashMap: hash function + bucket lookup + collision handling = O(1) with **high constant**
+
+Both are O(1), but array has **less overhead**.
+
+---
+
+## When HashMap is Better
+
+1. **Unknown or large range** (Unicode, arbitrary integers, strings as keys)
+2. **Sparse data** (only 5 unique chars, but potential 26) — HashMap uses only space needed
+3. **Flexibility** (works with any type of data)
+
+---
+
+## Valid Anagram Case
+
+**Array wins** because:
+
+- Fixed range (26 letters only)
+- Simple index calculation
+- No collisions, no hashing overhead
+
+**If problem allowed Unicode:** HashMap would win because you can't map arbitrary Unicode to fixed array.
+
+---
+
+## In Interviews—When to Say What
+
+**"I'll use frequency array because the constraint is lowercase English only — direct array access is faster than HashMap."**
+
+vs.
+
+**"I'll use HashMap because it handles any characters and uses only space for unique chars."**
+
+Both are correct. Choose based on **constraints**.
+
+Clear?
