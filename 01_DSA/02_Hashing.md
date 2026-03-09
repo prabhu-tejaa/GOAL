@@ -415,3 +415,24 @@ Do you need KEY → VALUE mapping?
 |**Iteration Order**|Random|Random|Sorted by key|
 |**Null Support**|1 null key|1 null value|No nulls|
 |**Use When**|Key→value mapping|Just existence check|Need sorted order|
+
+# Additional learnings
+
+## What is "hash lookup overhead"?
+
+When you do `map.put('a', 1)` or `map.get('a')`:
+
+```
+HashMap steps:
+1. Convert 'a' to a hash code (function call) ← cost
+2. Find bucket based on hash (computation) ← cost
+3. Handle collisions if needed (extra checks) ← cost
+4. Return value
+
+Array steps:
+1. Do math: 'a' - 'a' = 0
+2. Access freq[0] directly ← instant
+```
+
+**"Overhead" = extra work HashMap does behind the scenes.**
+Array is faster because it's just **one direct math calculation + array access**.
