@@ -1,4 +1,67 @@
 09-03-2026 - 21:00
+
+### HashMap
+
+|Method|Description|
+|---|---|
+|`put(k, v)`|Insert/update key-value pair|
+|`get(k)`|Get value by key (null if absent)|
+|`getOrDefault(k, def)`|Get value or default if absent|
+|`containsKey(k)`|Check if key exists|
+|`containsValue(v)`|Check if value exists|
+|`remove(k)`|Remove by key|
+|`keySet()`|Set of all keys|
+|`values()`|Collection of all values|
+|`entrySet()`|Set of all key-value pairs|
+|`size()`|Number of entries|
+|`isEmpty()`|Check if empty|
+|`putIfAbsent(k, v)`|Insert only if key not present|
+|`merge(k, v, fn)`|Merge value using function|
+|`getOrDefault(k, 0) + 1`|Common freq count pattern|
+
+---
+
+### HashSet
+
+|Method|Description|
+|---|---|
+|`add(e)`|Add element (returns false if dup)|
+|`remove(e)`|Remove element|
+|`contains(e)`|Check if element exists|
+|`size()`|Number of elements|
+|`isEmpty()`|Check if empty|
+|`clear()`|Remove all elements|
+|`addAll(col)`|Union with another collection|
+|`retainAll(col)`|Intersection|
+|`removeAll(col)`|Difference|
+
+---
+
+### TreeMap
+
+|Method|Description|
+|---|---|
+|`put(k, v)`|Insert/update (sorted by key)|
+|`get(k)`|Get value by key|
+|`firstKey()`|Smallest key|
+|`lastKey()`|Largest key|
+|`floorKey(k)`|Largest key ≤ k|
+|`ceilingKey(k)`|Smallest key ≥ k|
+|`lowerKey(k)`|Largest key < k|
+|`higherKey(k)`|Smallest key > k|
+|`headMap(k)`|View of keys strictly < k|
+|`tailMap(k)`|View of keys ≥ k|
+|`subMap(k1, k2)`|View of keys from k1 to k2|
+|`descendingMap()`|Reverse order view|
+|`containsKey(k)`|Check if key exists|
+|`remove(k)`|Remove by key|
+
+---
+
+**Quick reminder:** TreeMap = sorted + O(log n). HashMap = unordered + O(1). HashSet = unique elements + O(1).
+
+
+
 ## **Hashing**
 Hashing is a **technique** that converts any input into a fixed number (hash code).
 ```
