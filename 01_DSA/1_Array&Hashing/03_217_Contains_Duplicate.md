@@ -54,3 +54,5 @@ class Solution {
 
 }
 ```
+
+16, 20, 21 - PSALMS
