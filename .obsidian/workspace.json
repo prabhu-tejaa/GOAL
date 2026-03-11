@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DSA/02_Hashing.md",
+                "file": "01_DSA/1_Array&Hashing/04_49_Group_Anagram.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_Hashing"
+              "title": "04_49_Group_Anagram"
             }
           }
         ],
@@ -210,10 +210,10 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
+    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
+    "01_DSA/02_Hashing.md",
     "01_DSA/1_Array&Hashing/04_49_Group_Anagram.md",
     "01_DSA/1_Array&Hashing/03_217_Contains_Duplicate.md",
-    "01_DSA/02_Hashing.md",
-    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "01_DSA/1_Array&Hashing/02_242.Valid_Anagram.md",
     "01_DSA/00_Time & Space Complexity.md",
     "01_DSA/01_Arrays_1D_Static.md",

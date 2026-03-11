@@ -2,22 +2,23 @@
 
 ### HashMap
 
-|Method|Description|
-|---|---|
-|`put(k, v)`|Insert/update key-value pair|
-|`get(k)`|Get value by key (null if absent)|
-|`getOrDefault(k, def)`|Get value or default if absent|
-|`containsKey(k)`|Check if key exists|
-|`containsValue(v)`|Check if value exists|
-|`remove(k)`|Remove by key|
-|`keySet()`|Set of all keys|
-|`values()`|Collection of all values|
-|`entrySet()`|Set of all key-value pairs|
-|`size()`|Number of entries|
-|`isEmpty()`|Check if empty|
-|`putIfAbsent(k, v)`|Insert only if key not present|
-|`merge(k, v, fn)`|Merge value using function|
-|`getOrDefault(k, 0) + 1`|Common freq count pattern|
+| Method                   | Description                       |
+| ------------------------ | --------------------------------- |
+| `put(k, v)`              | Insert/update key-value pair      |
+| `get(k)`                 | Get value by key (null if absent) |
+| `getOrDefault(k, def)`   | Get value or default if absent    |
+| `containsKey(k)`         | Check if key exists               |
+| `containsValue(v)`       | Check if value exists             |
+| `remove(k)`              | Remove by key                     |
+| `keySet()`               | Set of all keys                   |
+| `values()`               | Collection of all values          |
+| `entrySet()`             | Set of all key-value pairs        |
+| `size()`                 | Number of entries                 |
+| `isEmpty()`              | Check if empty                    |
+| `putIfAbsent(k, v)`      | Insert only if key not present    |
+| `merge(k, v, fn)`        | Merge value using function        |
+| `getOrDefault(k, 0) + 1` | Common freq count pattern         |
+|                          |                                   |
 
 ---
 
