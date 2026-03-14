@@ -38,7 +38,45 @@ class Solution {
 ```
 
 ```
-//brute force way
+//brute force way (TLE)
 
+class Solution {
+
+    public int[] productExceptSelf(int[] nums) {
+
+        int numsLength = nums.length;
+
+        int[] result = new int[numsLength];
+
+  
+
+        for(int i = 0; i < numsLength; i++){
+
+            int product = 1;
+
+            for(int j = 0; j < numsLength; j++){
+
+                if(j != i){
+
+                    product = product * nums[j];
+
+                }
+
+            }
+
+        result[i] = product;
+
+        }
+
+    return result;
+
+    }
+
+}
+```
+
+hint: its a prefix and suffix problem
+
+```
 
 ```
