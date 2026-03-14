@@ -23,6 +23,12 @@ Total = **15 subarrays**
 ❌ `[2, 1]` is NOT a subarray — going back  
 ❌ `[1, 3, 5]` is NOT a subarray — skipping elements
 
+**number of subarrays = n × (n + 1) / 2**
+where `n` = array size.
+so for an array of size 9:
+9 × 10 / 2 = **45 subarrays** 😵
+
+
 ---
 
 ## 2. Subsequence
