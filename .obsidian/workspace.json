@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
+                "file": "01_DSA/1_Array&Hashing/10_152. Maximum Product Subarray.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_Subarrays_Subsequences_Subsets_Substring"
+              "title": "10_152. Maximum Product Subarray"
             }
           }
         ],
@@ -210,13 +210,15 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
+    "01_DSA/1_Array&Hashing/09_53. Maximum Subarray.md",
+    "01_DSA/1_Array&Hashing/10_152. Maximum Product Subarray.md",
+    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "01_DSA/1_Array&Hashing/08_128. Longest Consecutive Sequence.md",
     "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
     "01_DSA/1_Array&Hashing/07_271_Encode and Decode Strings.md",
     "00_Java_Fundementals/Java_Length_Sizes_Sheet.md",
     "01_DSA/1_Array&Hashing/06_238_Product_of_Array_Except_Self.md",
     "01_DSA/1_Array&Hashing/05_347_Top_K_Frequent_Elements.md",
-    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "01_DSA/04_sort.md",
     "01_DSA/1_Array&Hashing/04_49_Group_Anagram.md",
     "01_DSA/02_Hashing.md",
@@ -241,8 +243,6 @@
     "Untitled 1.canvas",
     "05_Job Hunt/lessons learned.md",
     "05_Job Hunt/No Roles or Not eligible.md",
-    "05_Job Hunt/applications/Rubrick.md",
-    "05_Job Hunt/Rejected.md",
     "Pasted image 20260303111448.png",
     "099_Bosscoder/DSA (Linear)/Topics",
     "099_Bosscoder/DSA (Linear)/02_Day2",
