@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Private Companies.md",
+                "file": "05_Job Hunt/lessons learned.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private Companies"
+              "title": "lessons learned"
             }
           }
         ],
@@ -210,11 +210,12 @@
   },
   "active": "22befb6334a94c9a",
   "lastOpenFiles": [
-    "05_Job Hunt/lessons learned.md",
     "05_Job Hunt/No Roles or Not eligible.md",
     "05_Job Hunt/Private Companies.md",
-    "05_Job Hunt/Government.md",
+    "05_Job Hunt/Rejected.md",
     "05_Job Hunt/Applied.md",
+    "05_Job Hunt/lessons learned.md",
+    "05_Job Hunt/Government.md",
     "01_DSA/1_Array&Hashing/10_152. Maximum Product Subarray.md",
     "01_DSA/1_Array&Hashing/09_53. Maximum Subarray.md",
     "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
@@ -241,7 +242,6 @@
     "Pasted image 20260308222231.png",
     "Pasted image 20260308222220.png",
     "099_Bosscoder",
-    "DSA.md",
     "Untitled 1.canvas",
     "Pasted image 20260303111448.png",
     "099_Bosscoder/DSA (Linear)/Topics",
