@@ -325,6 +325,7 @@ char c = 'a' + index;  // Returns 'a'
 ```java
 Character.isDigit('5');      // Returns true
 Character.isLetter('a');     // Returns true
+Character.isLetterOrDigit('b') // Returns true
 Character.isUpperCase('A');  // Returns true
 Character.isLowerCase('a');  // Returns true
 Character.toLowerCase('A');  // Returns 'a'
