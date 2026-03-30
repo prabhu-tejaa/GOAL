@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Private Companies.md",
+                "file": "05_Job Hunt/applications/Eli Lilly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private Companies"
+              "title": "Eli Lilly"
             }
           }
         ]
@@ -195,6 +195,14 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "Pasted image 20260331051149.png",
+    "05_Job Hunt/applications/Google.md",
+    "05_Job Hunt/applications/JPMC.md",
+    "05_Job Hunt/applications/Microsoft.md",
+    "05_Job Hunt/applications/Meta.md",
+    "05_Job Hunt/Applied.md",
+    "05_Job Hunt/applications/Rubrick.md",
+    "05_Job Hunt/Private Companies.md",
     "01_DSA/2_Two_Pointers/01_125_Valid Palindrome.md",
     "01_DSA/03_Strings.md",
     "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
@@ -207,21 +215,13 @@
     "05_Job Hunt/Government.md",
     "05_Job Hunt/lessons learned.md",
     "05_Job Hunt/No Roles or Not eligible.md",
-    "05_Job Hunt/Private Companies.md",
     "05_Job Hunt/Rejected.md",
-    "05_Job Hunt/Applied.md",
     "01_DSA/1_Array&Hashing/08_128. Longest Consecutive Sequence.md",
     "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
     "01_DSA/1_Array&Hashing/07_271_Encode and Decode Strings.md",
     "00_Java_Fundementals/Java_Length_Sizes_Sheet.md",
     "01_DSA/1_Array&Hashing/06_238_Product_of_Array_Except_Self.md",
     "01_DSA/1_Array&Hashing/05_347_Top_K_Frequent_Elements.md",
-    "01_DSA/04_sort.md",
-    "01_DSA/1_Array&Hashing/04_49_Group_Anagram.md",
-    "01_DSA/02_Hashing.md",
-    "01_DSA/00_Time & Space Complexity.md",
-    "01_DSA/01_Arrays_1D_Static.md",
-    "00_Java_Fundementals/Java_Fundamentals_Loops_Conditionals.md",
     "00_Java_Fundementals",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
