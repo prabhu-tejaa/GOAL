@@ -36,6 +36,8 @@ Razor pay
 [[Rubrick]]
 Salesforce
 Sap labs
+Servicenow
+Salesforce
 Snowflake
 Stripe
 [[Swiss Re]]
