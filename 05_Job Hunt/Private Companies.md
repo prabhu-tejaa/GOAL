@@ -31,6 +31,7 @@ Oracle
 Paypal
 Phone pe
 Postman
+Qualcomm
 Razor pay
 [[Rubrick]]
 Salesforce

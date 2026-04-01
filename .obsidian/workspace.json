@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/applications/Intuit.md",
+                "file": "05_Job Hunt/Private Companies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intuit"
+              "title": "Private Companies"
             }
           }
         ]
@@ -195,8 +195,8 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/Intuit.md",
+    "05_Job Hunt/Applied.md",
     "Pasted image 20260331052901.png",
     "05_Job Hunt/applications/Microsoft.md",
     "05_Job Hunt/applications/Eli Lilly.md",
