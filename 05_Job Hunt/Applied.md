@@ -2,4 +2,5 @@
 [[JPMC]] - 22-02-2026
 [[Rubrick]] - 03-03-2026
 [[Microsoft]] - 31-03-2026
+[[Intuit]] - 21-03-2026
 [[Rejected]]

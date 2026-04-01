@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/applications/Microsoft.md",
+                "file": "05_Job Hunt/Applied.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Microsoft"
+              "title": "Applied"
             }
           }
         ]
@@ -195,12 +195,14 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/applications/Intuit.md",
+    "Pasted image 20260331052901.png",
+    "05_Job Hunt/applications/Microsoft.md",
     "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/Eli Lilly.md",
     "Pasted image 20260331051149.png",
     "05_Job Hunt/applications/Google.md",
     "05_Job Hunt/applications/JPMC.md",
-    "05_Job Hunt/applications/Microsoft.md",
     "05_Job Hunt/applications/Meta.md",
     "05_Job Hunt/applications/Rubrick.md",
     "05_Job Hunt/Private Companies.md",
@@ -221,8 +223,6 @@
     "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
     "01_DSA/1_Array&Hashing/07_271_Encode and Decode Strings.md",
     "00_Java_Fundementals/Java_Length_Sizes_Sheet.md",
-    "01_DSA/1_Array&Hashing/06_238_Product_of_Array_Except_Self.md",
-    "01_DSA/1_Array&Hashing/05_347_Top_K_Frequent_Elements.md",
     "00_Java_Fundementals",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
