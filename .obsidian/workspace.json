@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/applications/Schneider.md",
+                "file": "05_Job Hunt/applications/Honeywell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Schneider"
+              "title": "Honeywell"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,11 +207,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ecd84df146b7a673",
+  "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/applications/Honeywell.md",
     "05_Job Hunt/Private Companies.md",
-    "05_Job Hunt/applications/Schneider.md",
     "05_Job Hunt/Applied.md",
+    "Pasted image 20260402034542.png",
+    "05_Job Hunt/applications/Schneider.md",
     "05_Job Hunt/applications/Swiss Re.md",
     "Pasted image 20260402023324.png",
     "Pasted image 20260402023313.png",
@@ -240,8 +241,6 @@
     "05_Job Hunt/lessons learned.md",
     "05_Job Hunt/No Roles or Not eligible.md",
     "05_Job Hunt/Rejected.md",
-    "01_DSA/1_Array&Hashing/08_128. Longest Consecutive Sequence.md",
-    "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
     "00_Java_Fundementals",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
@@ -254,7 +253,6 @@
     "099_Bosscoder/DSA (Linear)/02_Day2",
     "099_Bosscoder/DSA (Linear)/01_Day1",
     "Untitled.canvas",
-    "Pasted image 20260223174446.png",
     "05_Job Hunt/applications",
     "05_Job Hunt/Government",
     "02_System_Design/01_LLD/03_UML"
