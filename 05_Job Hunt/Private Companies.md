@@ -38,6 +38,7 @@ Salesforce
 Sap labs
 Snowflake
 Stripe
+Swiss Re
 TCS
 Tower research
 Uber
