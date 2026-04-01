@@ -38,7 +38,7 @@ Salesforce
 Sap labs
 Snowflake
 Stripe
-Swiss Re
+[[Swiss Re]]
 TCS
 Tower research
 Uber

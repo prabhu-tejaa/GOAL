@@ -4,4 +4,5 @@
 [[Microsoft]] - 31-03-2026
 [[Intuit]] - 31-03-2026
 [[Qualcomm]] - 02-04-2026
+[[Swiss re]] - 02-04-2026
 [[Rejected]]
