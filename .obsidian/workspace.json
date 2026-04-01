@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Private Companies.md",
+                "file": "05_Job Hunt/applications/Qualcomm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private Companies"
+              "title": "Qualcomm"
             }
           }
         ]
@@ -195,8 +195,11 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/applications/Intuit.md",
+    "Pasted image 20260402015554.png",
     "05_Job Hunt/Applied.md",
+    "05_Job Hunt/applications/Qualcomm.md",
+    "05_Job Hunt/Private Companies.md",
+    "05_Job Hunt/applications/Intuit.md",
     "Pasted image 20260331052901.png",
     "05_Job Hunt/applications/Microsoft.md",
     "05_Job Hunt/applications/Eli Lilly.md",
@@ -205,7 +208,6 @@
     "05_Job Hunt/applications/JPMC.md",
     "05_Job Hunt/applications/Meta.md",
     "05_Job Hunt/applications/Rubrick.md",
-    "05_Job Hunt/Private Companies.md",
     "01_DSA/2_Two_Pointers/01_125_Valid Palindrome.md",
     "01_DSA/03_Strings.md",
     "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
@@ -222,7 +224,6 @@
     "01_DSA/1_Array&Hashing/08_128. Longest Consecutive Sequence.md",
     "01_DSA/05_Subarrays_Subsequences_Subsets_Substring.md",
     "01_DSA/1_Array&Hashing/07_271_Encode and Decode Strings.md",
-    "00_Java_Fundementals/Java_Length_Sizes_Sheet.md",
     "00_Java_Fundementals",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
