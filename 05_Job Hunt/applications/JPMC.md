@@ -22,3 +22,7 @@ after finishing the
 I recently participated in **JPMorganChase****’s** job simulation on the Forage platform, and it was incredibly useful to understand what it might be like to participate on a **backend engineering** team at **JPMorganChase**.  
 I worked on a project to **build out key components of the Midas transaction-processing system, integrating Kafka, a SQL database, and an external REST API into a cohesive Spring Boot service**. I practiced using **Java, Spring Boot, Kafka, and SQL**, and built my **backend development and distributed systems** skills in a real-world context.  
 Doing this program confirmed that I really enjoy working on **scalable system design, data processing pipelines, and API-driven architectures**, and I'm excited to apply these skills on a **backend engineering** team at a company like **JPMorganChase****.**
+
+
+![[Pasted image 20260402041840.png]]
+![[Pasted image 20260402041858.png]]

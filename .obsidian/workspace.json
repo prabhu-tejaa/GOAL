@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Rejected.md",
+                "file": "05_Job Hunt/applications/JPMC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rejected"
+              "title": "JPMC"
             }
           },
           {
@@ -209,6 +209,11 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "Pasted image 20260402041858.png",
+    "Pasted image 20260402041840.png",
+    "05_Job Hunt/lessons learned.md",
+    "Pasted image 20260402041656.png",
+    "05_Job Hunt/Rejected.md",
     "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/Intuit.md",
     "05_Job Hunt/applications/Honeywell.md",
@@ -238,17 +243,13 @@
     "01_DSA/1_Array&Hashing/09_53. Maximum Subarray.md",
     "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "05_Job Hunt/Government.md",
-    "05_Job Hunt/lessons learned.md",
     "05_Job Hunt/No Roles or Not eligible.md",
-    "05_Job Hunt/Rejected.md",
     "00_Java_Fundementals",
     "Pasted image 20260309140320.png",
     "01_DSA/1_Array&Hashing",
     "Pasted image 20260308222231.png",
-    "Pasted image 20260308222220.png",
     "099_Bosscoder",
     "Untitled 1.canvas",
-    "Pasted image 20260303111448.png",
     "099_Bosscoder/DSA (Linear)/Topics",
     "099_Bosscoder/DSA (Linear)/02_Day2",
     "099_Bosscoder/DSA (Linear)/01_Day1",
