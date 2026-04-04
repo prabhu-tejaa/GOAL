@@ -24,5 +24,6 @@ I worked on a project to **build out key components of the Midas transaction-pro
 Doing this program confirmed that I really enjoy working on **scalable system design, data processing pipelines, and API-driven architectures**, and I'm excited to apply these skills on a **backend engineering** team at a company like **JPMorganChase****.**
 
 
+02-04-2026 : 04:19am
 ![[Pasted image 20260402041840.png]]
 ![[Pasted image 20260402041858.png]]
