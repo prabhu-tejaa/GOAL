@@ -3,7 +3,7 @@
 [[Rubrick]] - 03-03-2026
 [[Microsoft]] - 31-03-2026
 [[Intuit]] - 31-03-2026
-[[Qualcomm]] - 02-04-2026
+[[Qualcomm]] - 02-04-2026, 04-04-2026
 [[Swiss re]] - 02-04-2026
 [[Schneider]] - 02-04-2026
 [[Honeywell]] - 02-04-2026
