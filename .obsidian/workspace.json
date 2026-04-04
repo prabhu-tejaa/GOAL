@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Applied.md",
+                "file": "05_Job Hunt/applications/Qualcomm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applied"
+              "title": "Qualcomm"
             }
           },
           {
@@ -209,14 +209,14 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/Applied.md",
+    "05_Job Hunt/applications/Intuit.md",
+    "05_Job Hunt/Rejected.md",
     "05_Job Hunt/applications/JPMC.md",
     "Pasted image 20260402041858.png",
     "Pasted image 20260402041840.png",
     "05_Job Hunt/lessons learned.md",
     "Pasted image 20260402041656.png",
-    "05_Job Hunt/Rejected.md",
-    "05_Job Hunt/Applied.md",
-    "05_Job Hunt/applications/Intuit.md",
     "05_Job Hunt/applications/Honeywell.md",
     "05_Job Hunt/applications/Google.md",
     "05_Job Hunt/applications/Eli Lilly.md",
