@@ -3,18 +3,6 @@ Applied on 05-04-2026
 https://www.tcs.com/ai-careers - tcs ai career
 ---
 
-**1. Numerical Ability**
-
-- Percentages
-- Ratio & Proportion
-- Averages
-- Profit & Loss
-- Time & Work
-- Time, Speed & Distance
-- Simple & Compound Interest
-- HCF & LCM
-- Data Interpretation (5-10 sets)
-
 ---
 
 **2. Logical Reasoning**
