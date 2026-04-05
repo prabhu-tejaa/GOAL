@@ -28,7 +28,7 @@ https://www.tcs.com/ai-careers - tcs ai career
 
 ---
 
-**3. Verbal Ability**
+	**3. Verbal Ability**
 
 - Reading Comprehension
 - Sentence Correction
