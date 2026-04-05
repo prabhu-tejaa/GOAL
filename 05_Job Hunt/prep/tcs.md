@@ -47,5 +47,6 @@ https://www.tcs.com/ai-careers - tcs ai career
 - Data Structure Logic (Stack, Queue, Linked List basics)
 - Bitwise Operators
 - Pointers Basics (30 min only — `*p` and `&a`)
+https://prepinsta.com/tcs/programming-logic-questions/
 
 ---
