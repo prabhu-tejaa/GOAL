@@ -22,3 +22,37 @@ https://www.tcsion.com/EForms/loginAction.do?subAction=DisplayProfile&formId=200
 - Logical Reasoning
 - Verbal Ability
 - Programming Logic
+
+**Numerical Ability**
+
+- Percentage
+- Ratio & Proportion
+- Averages
+- Profit & Loss
+- Time & Work
+- Time, Speed & Distance
+- Simple & Compound Interest
+
+**Logical Reasoning**
+
+- Number Series
+- Coding-Decoding
+- Blood Relations
+- Syllogisms
+- Seating Arrangements
+- Direction Sense
+
+**Verbal Ability**
+
+- Synonyms & Antonyms
+- Reading Comprehension
+- Sentence Correction
+- Fill in the Blanks
+
+**Programming Logic**
+
+- Output based questions (what does this code print)
+- Find the error
+- Basic sorting & searching logic
+- Time complexity (just the basics — O(n), O(n²) etc)
+- Flowcharts
