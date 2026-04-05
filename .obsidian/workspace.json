@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Applied.md",
+                "file": "05_Job Hunt/applications/TCS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applied"
+              "title": "TCS"
             }
           },
           {
@@ -209,10 +209,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/TCS.md",
     "Pasted image 20260405123215.png",
     "05_Job Hunt/applications/Untitled.md",
-    "05_Job Hunt/Applied.md",
     "05_Job Hunt/Rejected.md",
     "05_Job Hunt/applications/Uber.md",
     "Pasted image 20260404182012.png",

@@ -16,3 +16,9 @@ https://www.tcsion.com/EForms/loginAction.do?subAction=DisplayProfile&formId=200
 
 
 ![[Pasted image 20260405123215.png]]
+
+**Stage1:**
+- Numerical Ability
+- Logical Reasoning
+- Verbal Ability
+- Programming Logic
