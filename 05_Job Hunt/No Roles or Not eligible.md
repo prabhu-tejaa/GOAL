@@ -1,3 +1,3 @@
 [[Eli Lilly]]
-[[TCS]]
+[[05_Job Hunt/applications/TCS]]
 [[Meta]]

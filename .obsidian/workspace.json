@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/applications/TCS.md",
+                "file": "05_Job Hunt/prep/tcs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCS"
+              "title": "tcs"
             }
           },
           {
@@ -209,8 +209,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/TCS.md",
+    "05_Job Hunt/prep/tcs.md",
+    "05_Job Hunt/prep",
+    "05_Job Hunt/Applied.md",
     "Pasted image 20260405123215.png",
     "05_Job Hunt/applications/Untitled.md",
     "05_Job Hunt/Rejected.md",
@@ -245,7 +247,6 @@
     "01_DSA/2_Two_Pointers",
     "01_DSA/1_Array&Hashing/10_152. Maximum Product Subarray.md",
     "01_DSA/1_Array&Hashing/09_53. Maximum Subarray.md",
-    "01_DSA/1_Array&Hashing/2351. First Letter to Appear Twice.md",
     "00_Java_Fundementals",
     "01_DSA/1_Array&Hashing",
     "099_Bosscoder",
@@ -255,7 +256,6 @@
     "099_Bosscoder/DSA (Linear)/01_Day1",
     "Untitled.canvas",
     "05_Job Hunt/applications",
-    "05_Job Hunt/Government",
-    "02_System_Design/01_LLD/03_UML"
+    "05_Job Hunt/Government"
   ]
 }
