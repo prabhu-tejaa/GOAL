@@ -6,8 +6,8 @@ https://www.tcs.com/ai-careers - tcs ai career
 **1. Numerical Ability**
 
 - Percentages - www.indiabix.com/aptitude/percentage/
-- Ratio & Proportion
-- Averages
+- Ratio & Proportion - https://www.indiabix.com/aptitude/ratio-and-proportion/
+- Averages - https://www.indiabix.com/aptitude/average/ (learn all 3 sub topics)
 - Profit & Loss
 - Time & Work
 - Time, Speed & Distance
