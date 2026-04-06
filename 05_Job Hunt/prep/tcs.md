@@ -8,7 +8,7 @@ https://www.tcs.com/ai-careers - tcs ai career
 - Percentages - www.indiabix.com/aptitude/percentage/
 - Ratio & Proportion - https://www.indiabix.com/aptitude/ratio-and-proportion/
 - Averages - https://www.indiabix.com/aptitude/average/ (learn all 3 sub topics)
-- Profit & Loss
+- Profit & Loss - https://www.indiabix.com/aptitude/profit-and-loss/
 - Time & Work
 - Time, Speed & Distance
 - Simple & Compound Interest
@@ -30,8 +30,8 @@ https://www.tcs.com/ai-careers - tcs ai career
 
 **3. Verbal Ability**
 
-- Reading Comprehension
-- Sentence Correction
+- Reading Comprehension - https://www.indiabix.com/verbal-ability/comprehension/ (hard, did few)
+- Sentence Correction - https://www.indiabix.com/aptitude/profit-and-loss/
 - Synonyms & Antonyms
 - Fill in the Blanks / Cloze Test
 - Para-jumbles
