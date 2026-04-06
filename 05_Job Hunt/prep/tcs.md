@@ -19,7 +19,7 @@ https://www.tcs.com/ai-careers - tcs ai career
 
 **2. Logical Reasoning**
 
-- Number & Letter Series
+- Number & Letter Series - https://www.indiabix.com/logical-reasoning/number-series/, https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/
 - Coding-Decoding
 - Blood Relations
 - Syllogisms (use Venn Diagrams)
