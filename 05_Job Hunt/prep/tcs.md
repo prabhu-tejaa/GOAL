@@ -24,7 +24,7 @@ https://www.tcs.com/ai-careers - tcs ai career
 - Blood Relations
 - Syllogisms (use Venn Diagrams)
 - Seating Arrangements (Linear & Circular)
-- Direction Sense
+- Direction Sense - https://www.indiabix.com/verbal-reasoning/direction-sense-test/ (on 3rd page)
 
 ---
 
