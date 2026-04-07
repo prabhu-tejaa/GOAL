@@ -51,3 +51,14 @@ yemjh05706@minitts.net
 https://prepinsta.com/tcs/programming-logic-questions/
 
 ---
+
+
+**Passive Voice** sentence, the person or thing doing the action is moved to the end, and the thing **receiving** the action is moved to the front.
+
+An idiom is a phrase where the **figurative meaning** is completely different from the **literal meaning** of the individual words.
+
+> **Example:** "Biting the bullet" doesn't mean eating ammo; it means **bravely facing a difficult situation.**
+
+An **antonym** is simply a word that has the **opposite meaning** of another word.
+
+
