@@ -169,4 +169,7 @@ Prepare **one strong STAR story per LP** with real numbers — "improved perform
 |**Week 2–3**|Phone screen prep — 2–3 STAR stories + 1 coding problem daily|
 |**Week 3–6**|Loop prep — more LeetCode mediums + LP stories + basic system design|
 
-**Start today with:** [hr.gs/TheAmazonCodingDemo](https://hr.gs/TheAmazonCodingDemo) — Amazon's free OA practice test 🚀
+	**Start today with:** [hr.gs/TheAmazonCodingDemo](https://hr.gs/TheAmazonCodingDemo) — Amazon's free OA practice test 🚀
+
+
+https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics
