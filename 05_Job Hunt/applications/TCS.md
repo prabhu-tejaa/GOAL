@@ -56,3 +56,6 @@ https://www.tcsion.com/EForms/loginAction.do?subAction=DisplayProfile&formId=200
 - Basic sorting & searching logic
 - Time complexity (just the basics — O(n), O(n²) etc)
 - Flowcharts
+
+
+Attempted  stage 1 exam on 03-04-2026... Got failed result on 16-04-2026
