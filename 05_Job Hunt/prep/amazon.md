@@ -173,3 +173,164 @@ Prepare **one strong STAR story per LP** with real numbers — "improved perform
 
 
 https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics
+
+## 📋 All 10 Topics Amazon Says to Prepare
+
+---
+
+### 1️⃣ Programming Language
+
+Your Java basically. They want you to know it well enough to code without an IDE.
+
+What to know:
+
+- Arrays, ArrayLists, HashMaps, HashSets
+- String methods (`.split()`, `.charAt()`, `.substring()`)
+- Loops, conditionals, recursion
+- Basic OOP (classes, objects, methods)
+
+---
+
+### 2️⃣ Data Structures
+
+The **biggest** topic. Most OA and interview questions are from here.
+
+|Structure|What to know|
+|---|---|
+|Arrays|Traversal, subarray, rotation|
+|Strings|Palindrome, anagram, reversal|
+|LinkedList|Reverse, cycle detection, merge|
+|Stack|Valid parentheses, min stack|
+|Queue|BFS, sliding window|
+|HashMap|Frequency count, two sum|
+|Trees|Traversal, height, LCA|
+|Graphs|BFS, DFS, number of islands|
+|Heap/PriorityQueue|Top K elements|
+
+---
+
+### 3️⃣ Algorithms
+
+The patterns you apply to solve problems.
+
+|Algorithm|Example Problem|
+|---|---|
+|Two Pointers|3Sum, Container with most water|
+|Sliding Window|Longest substring, max sum|
+|Binary Search|Search in rotated array|
+|BFS/DFS|Island count, shortest path|
+|Dynamic Programming|Climbing stairs, coin change|
+|Recursion|Fibonacci, subsets|
+|Sorting|Merge sort, quick sort basics|
+
+---
+
+### 4️⃣ Coding
+
+They recommend practicing coding outside of an integrated development environment — meaning get used to writing on LeetCode or plain editor, not IntelliJ.
+
+They look for:
+
+- Clean readable code
+- Correct logic
+- Edge cases handled
+- Time & space complexity explained
+
+---
+
+### 5️⃣ Object Oriented Design
+
+This is for the **system design / Loop rounds**.
+
+What to know:
+
+- Classes & Objects
+- Inheritance, Encapsulation, Polymorphism, Abstraction
+- Design patterns (basic ones — Singleton, Factory)
+
+Example questions:
+
+- Design a Parking Lot class
+- Design a Library system
+- Design a Vending Machine
+
+---
+
+### 6️⃣ Databases
+
+Basic SQL knowledge needed.
+
+What to know:
+
+- SELECT, WHERE, JOIN, GROUP BY, ORDER BY
+- Primary keys, Foreign keys
+- Basic indexing concept
+- Difference between SQL and NoSQL
+
+Example question: _"Design tables for an e-commerce order system"_
+
+---
+
+### 7️⃣ Distributed Computing
+
+High level concepts — mostly for Loop rounds, not OA.
+
+What to know (just concepts, not deep):
+
+- What is a distributed system?
+- Load balancing
+- CAP theorem (Consistency, Availability, Partition tolerance)
+- Caching basics (what is Redis?)
+- Horizontal vs vertical scaling
+
+---
+
+### 8️⃣ Operating Systems
+
+Basic OS concepts — rarely asked for SDE I but good to know.
+
+What to know:
+
+- Processes vs Threads
+- Deadlock (what it is, how to avoid)
+- Memory management basics
+- Mutex, Semaphores
+
+---
+
+### 9️⃣ Internet Topics
+
+Web basics — more important than people think.
+
+What to know:
+
+- How HTTP/HTTPS works
+- What is REST API?
+- GET vs POST
+- DNS basics
+- What happens when you type google.com?
+
+---
+
+### 🔟 Machine Learning & AI
+
+Least important for SDE I. Just be aware of basics.
+
+What to know:
+
+- What is ML? Supervised vs Unsupervised
+- What is a neural network (basic idea)
+- You won't be asked to code ML algorithms
+
+---
+
+## 🎯 Priority Order for YOU (SDE I Fresher)
+
+```
+🔴 Must master    → Data Structures + Algorithms + Coding
+🟠 Important      → OOP + Databases + Internet Topics  
+🟡 Good to know   → Distributed Computing + OS
+🟢 Just be aware  → ML/AI
+```
+
+Start with the 🔴 ones — that's 80% of your OA and interview! 🚀
