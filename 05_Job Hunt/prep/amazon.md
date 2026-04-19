@@ -402,3 +402,7 @@ Instead of looking at the CSV rows, filter for these topics in this specific ord
 - **Strings / Hashing:** Master **Group Anagrams**. This tests your ability to categorize data efficiently using HashMaps.
     
 - **Two Pointers:** Master **Two Sum II** or **Trapping Rain Water**. A fundamental technique for searching or processing sorted data with minimal memory usage.
+
+- **Master the "STAR" Method:** In 2026, Amazon is failing more students on **Leadership Principles (LP)** than on coding. You need 1 story for _Customer Obsession_, _Ownership_, and _Bias for Action_.
+    
+- **The "Work Simulation" Trap:** In your Online Assessment, you will be given scenarios like "Your manager asks for a feature by Friday, but it's not ready." **Rule:** Never lie, never blame others, and always prioritize the customer experience.
