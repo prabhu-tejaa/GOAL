@@ -336,3 +336,6 @@ What to know:
 Start with the 🔴 ones — that's 80% of your OA and interview! 🚀
 
 https://drive.google.com/file/d/1BXOGryuaqGCJicHp6hG6aB-T8mMO2ZUe/view
+
+
+check these for guides:
