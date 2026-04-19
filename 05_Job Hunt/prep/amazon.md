@@ -339,3 +339,6 @@ https://drive.google.com/file/d/1BXOGryuaqGCJicHp6hG6aB-T8mMO2ZUe/view
 
 
 check these for guides:
+LeetCode "Discuss" Section
+Glassdoor (Interview Section)
+GeeksforGeeks (Interview Experiences)
