@@ -342,3 +342,63 @@ check these for guides:
 LeetCode "Discuss" Section
 Glassdoor (Interview Section)
 GeeksforGeeks (Interview Experiences)
+
+### 1. The "Must-Do" Priority List (The Real Shortcut)
+
+Instead of looking at the CSV rows, filter for these topics in this specific order. This covers ~80% of what appears in the 3-month and 6-month lists:
+
+- **BFS/DFS on 2D Grids (Priority #1):**
+    
+    - _Logic:_ Amazon loves these because they simulate delivery routes/warehouses.
+        
+    - _Top 3:_ Number of Islands, Rotting Oranges, Flood Fill.
+        
+- **Heaps / Priority Queues (Priority #2):**
+    
+    - _Logic:_ Used for "K-Nearest" or "Top-K" problems.
+        
+    - _Top 3:_ K Closest Points to Origin, Top K Frequent Words, Reorganize String.
+        
+- **HashMaps + Strings:**
+    
+    - _Logic:_ Basic data processing.
+        
+    - _Top 3:_ Group Anagrams, Longest Substring Without Repeating Characters, Two Sum.
+        
+- **Linked Lists:**
+    
+    - _Logic:_ Standard "filter" questions for SDE I.
+        
+    - _Top 3:_ Reverse Nodes in k-Group, Merge k Sorted Lists, Copy List with Random Pointer.
+        
+- **Sliding Window:**
+    
+    - _Logic:_ Optimization from O(n2) to O(n).
+        
+    - _Top 3:_ Minimum Window Substring, Sliding Window Maximum.
+
+
+| **Priority** | **Pattern**        | **The "Gold Standard" Problem**                    |
+| ------------ | ------------------ | -------------------------------------------------- |
+| **#1**       | **Grid / Matrix**  | **Number of Islands** (or Rotting Oranges)         |
+| **#2**       | **Heaps**          | **K Closest Points to Origin**                     |
+| **#3**       | **Sliding Window** | **Longest Substring Without Repeating Characters** |
+| **#4**       | **Greedy/Sorting** | **Maximum Units on a Truck**                       |
+| **#5**       | **Graph**          | **Course Schedule** (Topological Sort)             |
+| **#6**       | **Strings**        | **Group Anagrams**                                 |
+| **#7**       | **Two Pointers**   | **Two Sum II** (Sorted Input)                      |
+
+
+- **Grid / Matrix (BFS/DFS):** Master **Number of Islands**. This is the #1 most common pattern because it simulates navigating physical spaces like warehouses.
+    
+- **Heaps / Priority Queues:** Master **K Closest Points to Origin**. Used for finding the "top" or "nearest" items in a large dataset.
+    
+- **Sliding Window:** Master **Longest Substring Without Repeating Characters**. Critical for optimizing string and array processing from O(n2) to O(n).
+    
+- **Greedy / Sorting:** Master **Maximum Units on a Truck**. Amazon-specific logistics theme that tests your ability to make the most efficient local choice.
+    
+- **Graphs (Topological Sort):** Master **Course Schedule**. Essential for problems involving dependencies or task ordering.
+    
+- **Strings / Hashing:** Master **Group Anagrams**. This tests your ability to categorize data efficiently using HashMaps.
+    
+- **Two Pointers:** Master **Two Sum II** or **Trapping Rain Water**. A fundamental technique for searching or processing sorted data with minimal memory usage.
