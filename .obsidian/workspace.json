@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Private Companies.md",
+                "file": "07_Educative/01_allTopics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Private Companies"
+              "title": "01_allTopics"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/No Roles or Not eligible.md",
     "05_Job Hunt/Private Companies.md",
+    "07_Educative/01_allTopics.md",
+    "07_Educative",
+    "05_Job Hunt/No Roles or Not eligible.md",
     "05_Job Hunt/Applied.md",
     "05_Job Hunt/Rejected.md",
     "05_Job Hunt/applications/Swiss Re.md",
@@ -232,7 +234,6 @@
     "Pasted image 20260402023324.png",
     "01_DSA/2_Two_Pointers/01_125_Valid Palindrome.md",
     "01_DSA/03_Strings.md",
-    "01_DSA/1_Array&Hashing/01_1.TwoSum.md",
     "01_DSA/2_Two_Pointers",
     "00_Java_Fundementals",
     "01_DSA/1_Array&Hashing",
@@ -241,7 +242,6 @@
     "099_Bosscoder/DSA (Linear)/Topics",
     "099_Bosscoder/DSA (Linear)/02_Day2",
     "099_Bosscoder/DSA (Linear)/01_Day1",
-    "Untitled.canvas",
-    "05_Job Hunt/applications"
+    "Untitled.canvas"
   ]
 }
