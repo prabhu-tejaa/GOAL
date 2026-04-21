@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Educative/01_allTopics.md",
+                "file": "01_DSA/0_0Famous problems in Interviews.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_allTopics"
+              "title": "0_0Famous problems in Interviews"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/Private Companies.md",
     "07_Educative/01_allTopics.md",
+    "01_DSA/0_0Famous problems in Interviews.md",
+    "05_Job Hunt/Private Companies.md",
     "07_Educative",
     "05_Job Hunt/No Roles or Not eligible.md",
     "05_Job Hunt/Applied.md",
@@ -233,7 +234,6 @@
     "Pasted image 20260402034542.png",
     "Pasted image 20260402023324.png",
     "01_DSA/2_Two_Pointers/01_125_Valid Palindrome.md",
-    "01_DSA/03_Strings.md",
     "01_DSA/2_Two_Pointers",
     "00_Java_Fundementals",
     "01_DSA/1_Array&Hashing",
