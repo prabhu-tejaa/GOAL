@@ -10,5 +10,5 @@
 [[Uber]] - 04-04-2026
 [[TCS]] - 05-05-2026
 [[HCL Tech]] - 07-04-2026
-[[05_Job Hunt/applications/Amazon]] - 17-04-2026
+[[05_Job Hunt/prep/amazon|amazon]] - 17-04-2026
 [[Rejected]]
