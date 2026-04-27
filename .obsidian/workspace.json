@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/applications/Infor.md",
+                "file": "05_Job Hunt/Applied.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Infor"
+              "title": "Applied"
             }
           }
         ]
@@ -195,10 +195,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/applications/Infor.md",
     "Pasted image 20260428011956.png",
     "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/UnitedHealthGroup.md",
-    "05_Job Hunt/applications/Infor.md",
     "05_Job Hunt/applications/Siemens.md",
     "05_Job Hunt/applications/Uber.md",
     "Pasted image 20260428003653.png",
@@ -234,7 +234,6 @@
     "Pasted image 20260404182012.png",
     "Pasted image 20260404175505.png",
     "Pasted image 20260402041858.png",
-    "Pasted image 20260402041840.png",
     "01_DSA/2_Two_Pointers",
     "00_Java_Fundementals",
     "01_DSA/1_Array&Hashing",
