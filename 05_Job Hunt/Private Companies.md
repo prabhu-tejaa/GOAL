@@ -17,7 +17,7 @@ Eli Lilly
 Github
 Gitlab
 Goldman Sachs
-[[Google
+[[Google]]
 [[Honeywell]] - 02-04-2026
 Indeed
 Intuit
