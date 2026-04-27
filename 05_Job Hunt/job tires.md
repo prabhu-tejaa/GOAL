@@ -13,17 +13,17 @@ i can apply form india
 
 - Microsoft
     
-- Apple
+- [x] Apple
     
 - Google
     
-- Airbnb
+- [x] Airbnb
     
 - Databricks
     
 - Uber
     
-- Stripe
+- [x] Stripe
     
 - PayPal
     
@@ -38,7 +38,7 @@ i can apply form india
     
 - Coupang
     
-- LinkedIn
+- [x] LinkedIn
     
 
 ### B+ Tier
@@ -51,7 +51,7 @@ i can apply form india
     
 - eBay
     
-- GitHub
+- [x] GitHub
     
 - Oracle
     
