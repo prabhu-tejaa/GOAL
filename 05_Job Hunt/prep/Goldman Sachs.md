@@ -65,6 +65,8 @@ https://leetcode.com/discuss/interview-question/334671/goldman-sacks-july-2019-h
 https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
 
 # Round 5: Java & Engineering Practices
+https://www.geeksforgeeks.org/interview-experiences/goldman-sachs-interview-experience-for-java-developer-3-years-experienced/
+https://github.com/a11exe/java-interview/blob/main/questions/concurrency.md
 ### 1. Core Java & Internals (The "How it Works" Layer)
 
 - **HashMap & HashSet Internals:**
