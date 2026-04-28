@@ -1,0 +1,1 @@
+https://www.goldmansachs.com/careers/discover/virtual-interview-prep.pdf
