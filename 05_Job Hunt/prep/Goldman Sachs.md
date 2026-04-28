@@ -167,3 +167,7 @@ This is what sets an L2 apart from a junior. You are expected to know how to "sh
 - Integer overflow (use `long` in Java if necessary)
     
 - Negative numbers
+file:///C:/Users/91951/AppData/Local/Temp/Goldman%20Sachs%20Tagged%20LeetCode%20Problems%20.pdf
+https://github.com/snehasishroy/leetcode-companywise-interview-questions/tree/master/goldman-sachs
+
+https://leetcode.com/problems/trapping-rain-water
