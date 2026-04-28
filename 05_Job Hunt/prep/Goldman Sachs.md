@@ -60,3 +60,96 @@ If you pass the filters, you have 3–4 back-to-back interviews in one day.
     - **Questions:** "Tell me about a time you failed," "How do you handle a conflict with a senior?"
         
     - **The Secret:** Use the **STAR method** and align your answers with their **14 Business Principles**.
+
+https://leetcode.com/discuss/interview-question/334671/goldman-sacks-july-2019-hackerrank-2
+https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+
+# Round 5: Java & Engineering Practices
+### 1. Core Java & Internals (The "How it Works" Layer)
+
+- **HashMap & HashSet Internals:**
+    
+    - **Buckets & Hashing:** How the index is calculated (`hash & (n-1)`).
+        
+    - **Collision Handling:** Linked List vs. **Red-Black Tree** (know the threshold of 8).
+        
+    - **Load Factor:** Why 0.75? (The trade-off between space and time).
+        
+- **JVM Memory Management:**
+    
+    - **Heap vs. Stack:** What is thread-local (Stack) vs. shared (Heap).
+        
+    - **Metaspace:** Where class metadata is stored (replaced PermGen).
+        
+    - **Garbage Collection:** Deep dive into **G1GC** (Regions, Humongous Objects) and **ZGC** (for ultra-low latency).
+        
+- **String Mastery:** Why is `String` immutable? (Security, Caching, and Synchronization). Understand `String Pool`.
+    
+
+---
+
+### 2. Concurrency & Multithreading (The "High-Performance" Layer)
+
+Goldman is a bank; their systems handle thousands of transactions per second. This is usually the hardest part of the interview.
+
+- **The Java Memory Model (JMM):**
+    
+    - **`volatile` keyword:** "Happens-before" relationship and visibility.
+        
+    - **Atomic Classes:** How `AtomicInteger` uses **CAS (Compare-And-Swap)** instead of locking.
+        
+- **Locks:**
+    
+    - `synchronized` vs. `ReentrantLock` (fairness, `tryLock`, and interruptible locks).
+        
+    - **Deadlocks:** How to detect, prevent, and resolve them.
+        
+- **Executor Framework:**
+    
+    - `FixedThreadPool` vs. `CachedThreadPool`.
+        
+    - **`CompletableFuture`:** How to chain asynchronous tasks (crucial for modern microservices).
+        
+- **Virtual Threads (Java 21):** Why they are "lightweight" and how they differ from platform threads.
+    
+
+---
+
+### 3. Modern Java (Java 8 to Java 25+)
+
+- **Lambdas & Streams:** Mastering `map`, `filter`, `reduce`, and `flatMap`.
+    
+- **Functional Interfaces:** `Predicate`, `Function`, `Consumer`, and `Supplier`.
+    
+- **Optional:** How to avoid `NullPointerException`.
+    
+- **Records & Sealed Classes:** Using these for cleaner, immutable domain models.
+    
+
+---
+
+### 4. Engineering Practices (The "Pro" Layer)
+
+This is what sets an L2 apart from a junior. You are expected to know how to "ship" code.
+
+- **Design Patterns:**
+    
+    - **Singleton:** Implement a thread-safe version using **Double-Checked Locking**.
+        
+    - **Strategy & Factory:** Used for different payment methods or asset classes.
+        
+    - **Observer:** How stock price tickers update the UI.
+        
+- **Testing Rigor:**
+    
+    - **Unit Testing:** Using **JUnit 5** and **Mockito**.
+        
+    - **Integration Testing:** How to test with a real database using **Testcontainers**.
+        
+- **CI/CD & Git:**
+    
+    - **Branching:** GitFlow vs. Trunk-based development.
+        
+    - **Pipelines:** Stages like Build -> Scan (SonarQube) -> Test -> Deploy.
+        
+- **Solid Principles:** Be able to explain "Dependency Inversion" or "Interface Segregation" with a real-world example.
