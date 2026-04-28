@@ -155,3 +155,15 @@ This is what sets an L2 apart from a junior. You are expected to know how to "sh
     - **Pipelines:** Stages like Build -> Scan (SonarQube) -> Test -> Deploy.
         
 - **Solid Principles:** Be able to explain "Dependency Inversion" or "Interface Segregation" with a real-world example.
+
+# DSA
+
+**Edge Cases:** For every problem, explicitly mention how you handle:
+
+- Empty strings/arrays
+    
+- `null` inputs
+    
+- Integer overflow (use `long` in Java if necessary)
+    
+- Negative numbers
