@@ -70,15 +70,16 @@ And it's worked out. I'm finishing strong, I have my capstone project MIRROR, an
 
 ### So then how you'll mange the job now?
 
-Great question. This final semester is very manageable alongside a full-time role.
+"This final semester is very manageable—1 subject on Sundays, capstone spread across 6 months with monthly check-ins. So realistically, 5-10 hours per week.
+ 
+ That's totally doable alongside a full-time SDE role."
 
-I have just **one subject—Big Data Analytics—that meets on Sundays**. That's a few hours of my time each week.
+### **"Tomorrow interview?**"
 
-My capstone project is **spread across 6 months with monthly deliverables and check-ins**. So realistically, I'm looking at maybe **5-10 hours per week** on coursework total.
+I appreciate the offer, but I want to be honest: I'm in the middle of interview prep right now. If I start tomorrow, I won't be at my best because I'm still preparing.
 
-That's totally doable. In fact, having a full-time SDE role while completing my capstone is ideal—I'll be applying real-world problems to my project, which will make me a better engineer.
+Can we do **2 weeks**? That gives me time to finish my prep
 
-I'm ready to start immediately."
 
 -----------------------
 
