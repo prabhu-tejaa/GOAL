@@ -56,8 +56,29 @@ After 2 years at Siemens, working across different teams, first at Adept Chips, 
  
 Rather than chase another similar contract role, I decided the smarter move was to invest in a Master's degree. This would significantly increase my earning potential long term, plus keep me current with emerging technologies like AI that are reshaping the industry.
  
-So in July 2024, I enrolled at Vellore Institute of Technology. I'm now in my final semester, and I'm excited to bring both my 2 years of production experience AND my master knowlodeg
+So in July 2024, I enrolled at Vellore Institute of Technology. I'm now in my final semester, and I'm excited to bring both my 2 years of production experience AND my master knowlodeg.
 
+### **Is your Master's full-time on-campus or online/distance?**
+
+"Yeah so its like working remote is nothinbg?? no rite, even remote we gotta work it goes same with online degree, most college have exmas online but our college we had to go college centers and write the examsx, the structure is actually quite intensive. I have 5 subjects per semester, live classes every day, plus mandatory 5-hour recorded lectures I have to watch to understand the live sessions.
+
+So realistically, I'm spending **8-10 hours a day** on coursework. That's basically full-time commitment, just distributed across the day.
+
+Could I have done part-time work? Maybe, but I wanted to do this properly—actually engage with the content, build the capstone project, not just half-ass it while juggling a job.
+
+And it's worked out. I'm finishing strong, I have my capstone project MIRROR, and I'm ready to bring both my 2 years of Siemens experience plus my fresh upskilling to a full-time SDE role.
+
+### So then how you'll mange the job now?
+
+Great question. This final semester is very manageable alongside a full-time role.
+
+I have just **one subject—Big Data Analytics—that meets on Sundays**. That's a few hours of my time each week.
+
+My capstone project is **spread across 6 months with monthly deliverables and check-ins**. So realistically, I'm looking at maybe **5-10 hours per week** on coursework total.
+
+That's totally doable. In fact, having a full-time SDE role while completing my capstone is ideal—I'll be applying real-world problems to my project, which will make me a better engineer.
+
+I'm ready to start immediately."
 
 -----------------------
 
