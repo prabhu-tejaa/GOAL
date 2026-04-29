@@ -1,0 +1,2 @@
+https://leetcode.com/discuss/post/7917099/indeed-sde-1-interview-experience-6-roun-j0gk/
+https://www.linkedin.com/posts/shyamsingh01_softwareengineering-interviewexperience-systemdesign-share-7449907566836387840-Hhrp/
