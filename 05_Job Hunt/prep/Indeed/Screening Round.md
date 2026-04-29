@@ -8,7 +8,7 @@ My contract ended in June 2024, and since then, I've been focused on my Master's
 
 ### **Why did your last role end in June 2024?**
 
-After 2 years at Siemens, I evaluated my career and realized I needed to make a move to accelerate my growth. The role was great, but the compensation wasn't aligned with my market value or my career ambitions.
+After 2 years at Siemens, I evaluated my career **Growth** and realized I needed to make a move to accelerate my growth. The role was great, but the compensation wasn't aligned with my market value or my career ambitions.
  
 Rather than jump immediately to another company at the same level, I made a deliberate decision: take a short break and pursue my Master's degree. This accomplishes two things, it strengthens my technical foundations in emerging areas, and it significantly increases my market value when I rejoin the workforce.
  
@@ -50,7 +50,14 @@ In December 2023, when my contract with Adept Chips concluded, the project manag
 
 **Across both roles:** I shipped features end-to-end, worked in Agile sprints, and collaborated with stakeholders across Europe. I got exposure to cloud deployments, CI/CD pipelines, and enterprise-scale systems.
 
-**"Why did you leave TeamLease after only 6 months?"**
+### **"Why did you leave TeamLease after only 6 months?"**
+
+After 2 years at Siemens, working across different teams, first at Adept Chips, then at TeamLease Services, I evaluated my overall **Growth**. I realized that contract work was limiting my growth potential and market value.
+ 
+Rather than chase another similar contract role, I decided the smarter move was to invest in a Master's degree. This would significantly increase my earning potential long term, plus keep me current with emerging technologies like AI that are reshaping the industry.
+ 
+So in July 2024, I enrolled at Vellore Institute of Technology. I'm now in my final semester, and I'm excited to bring both my 2 years of production experience AND my master knowlodeg
+
 
 -----------------------
 
