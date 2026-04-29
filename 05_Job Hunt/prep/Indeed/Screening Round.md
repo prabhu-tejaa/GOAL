@@ -1,4 +1,10 @@
-Tell me about yourself.
+Tell me about yourself?
+
+Hi, I'm Prabhu Teja Pamula. I'm a software engineer with 2 years of professional experience at Siemens, where I worked on IoT and EV charging platforms. I graduated with a Bachelor's in Computer Science from Sabarmati University in 2018, and I'm currently pursuing my Master's in Computer Applications at Vellore Institute of Technology. 
+
+At Siemens, I worked on full stack development, building backend services, APIs and frontend features. I led some important technical initiatives, like migrating a critical system and resolving security issues. I also have hands on experience with cloud deployments and CI/CD.
+ 
+My contract ended in June 2024, and since then, I've been focused on my Master's degree. I'm excited to join a company where I can apply my experience, continue learning and contribute to meaningful projects.
 
 What are you doing now
 
