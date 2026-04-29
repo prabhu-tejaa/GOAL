@@ -8,9 +8,9 @@ My contract ended in June 2024, and since then, I've been focused on my Master's
 
 ### **Why did your last role end in June 2024?**
 
-After 2 years at Siemens, I evaluated my career and realized I needed to make a move to accelerate my growth. The role was great, but the compensation wasn't aligned with my market value or my ambitions.
+After 2 years at Siemens, I evaluated my career and realized I needed to make a move to accelerate my growth. The role was great, but the compensation wasn't aligned with my market value or my career ambitions.
  
-Rather than jump immediately to another company at the same level, I made a deliberate decision: take a short break and pursue my Master's degree. This accomplishes two things, it strengthens my technical foundations and it significantly increases my market value when I rejoin the workforce.
+Rather than jump immediately to another company at the same level, I made a deliberate decision: take a short break and pursue my Master's degree. This accomplishes two things, it strengthens my technical foundations in emerging areas, and it significantly increases my market value when I rejoin the workforce.
  
  I'm in the final semester of my Master's now. Looking back, it was the right call.
 
@@ -23,10 +23,31 @@ I had 2 years of solid experience, but the industry is moving fast, especially w
 
 So I enrolled in a Master's program at Vellore Institute of Technology specifically to deepen my fundamentals in computer science and learn emerging technologies like AI/ML, and demonstrate commitment to continuous growth. This makes me a stronger candidate long term.
 
-It's not about avoiding work—I've been active the whole time. I've built MIRROR, an AI-driven journaling platform using RAG and LLM integration, which kept me technically sharp and relevant. Now that I'm wrapping up my Master's, I'm ready to bring all this learning into a production environment."
 ### **What are you doing now?**
 
+I'm in my final semester at Vellore Institute of Technology, wrapping up my Master's in Computer Applications.
+
+My focus right now is twofold:
+
+**First, academics:** 
+I'm completing my coursework and finalizing my capstone project, MIRROR—an AI-driven journaling platform that uses Retrieval Augmented Generation (RAG) and LLM integration to enable contextual memory recall. On the technical side, I'm building it with Spring Boot for the backend, PostgreSQL with pgVector for embeddings, Angular for the frontend, and setting up CI/CD pipelines with GitHub Actions.
+
+**Second, job search:**
+I'm actively interviewing and looking to join a company where I can contribute meaningfully to production systems. My goal is to leverage both my Siemens experience and my master knowledge
+
+The Master's wraps up in July, so my availability is immediate. I'm excited to be at this inflection point, experienced but current, grounded but forward thinking."
 ### **Walk me through your role at Siemens**
+
+I was at Siemens for 2 years as a Software Engineer with 3 different teams.
+
+**First 1.5 years:**
+I was on the Adept Chips Services team, building IoT commissioning solutions. I engineered a **voice-controlled Proof of Concept using Alexa Skills Kit**, demonstrated hands free hardware configuration. I also implemented charger grouping features and led a **critical migration of the VersiCharge Configurator from Angular 9 to Angular 14** and all the related depeacy for the desktop app, where I had to resolve major security vulnerabilities across the entire dependency tree. Additionally, I debugged **FCM token synchronization failures in the China region** without access to local test environments, this required remote log analysis and creative problem solving.
+Later I was moved to another teamwho was devemopking the same commisiong app but in mobie and desktop, here i have invested and learned a lot on andoind and mobile development, i was helping the new team with my knowlwge of my past experince  since it was simlar, we have uniifed backedn for both amobile and deskotp
+
+**Last 1 year:**
+I transitioned to TeamLease Services team due to some issue with my parent compnay the project mianager had taken me to their interinal osurincg comaonut, where I shifted to a **low-code platform called Mendix**. There, I engineered production-ready microflows for the Siemens Sifinity Fleet IoT platform, developing domain models and core business logic. I also architected a **custom OQL (Object Query Language) reporting engine** that processed 10,000+ records with optimized query performance for energy consumption analytics. (try to use some java too here na)
+
+**Across both roles:** I shipped features end-to-end, worked in Agile sprints, and collaborated with stakeholders across Europe and Asia. I got exposure to cloud deployments, CI/CD pipelines, and enterprise-scale systems.
 
 -----------------------
 
