@@ -15,5 +15,5 @@
 [[UnitedHealthGroup]] - 28-04-2026
 [[Infor]] - 28-04-2026
 [[05_Job Hunt/applications/Goldman Sachs|Goldman Sachs]] - 28-04-2026
-[[05_Job Hunt/applications/Indeed]] - 
+[[Indeed]] - 28-04-2026
 [[Rejected]]
