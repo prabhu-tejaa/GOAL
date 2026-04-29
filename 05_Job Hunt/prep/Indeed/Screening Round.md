@@ -1,4 +1,4 @@
-Tell me about yourself?
+### Tell me about yourself?
 
 Hi, I'm Prabhu Teja Pamula. I'm a software engineer with 2 years of professional experience at Siemens, where I worked on IoT and EV charging platforms. I graduated with a Bachelor's in Computer Science from Sabarmati University in 2018, and I'm currently pursuing my Master's in Computer Applications at Vellore Institute of Technology. 
 
@@ -6,13 +6,27 @@ At Siemens, I worked on full stack development, building backend services, APIs 
  
 My contract ended in June 2024, and since then, I've been focused on my Master's degree. I'm excited to join a company where I can apply my experience, continue learning and contribute to meaningful projects.
 
-What are you doing now
+### **Why did your last role end in June 2024?**
 
-Walk me through your role at Siemens
+After 2 years at Siemens, I evaluated my career and realized I needed to make a move to accelerate my growth. The role was great, but the compensation wasn't aligned with my market value or my ambitions.
+ 
+Rather than jump immediately to another company at the same level, I made a deliberate decision: take a short break and pursue my Master's degree. This accomplishes two things, it strengthens my technical foundations and it significantly increases my market value when I rejoin the workforce.
+ 
+ I'm in the final semester of my Master's now. Looking back, it was the right call.
 
-What is your notice period?
+### **Why are you pursuing your Master's instead of working/looking for a job?**
 
-What are your salary expectations?
+After my role at Siemens ended, I had two choices: jump into another job immediately, or invest in myself strategically. I chose the latter.
+
+Here's my thinking: 
+I had 2 years of solid experience, but the industry is moving fast, especially with AI, microservices architectures, and modern cloud patterns. My Bachelor's degree was from 2018, and a lot has changed.
+
+So I enrolled in a Master's program at Vellore Institute of Technology specifically to deepen my fundamentals in computer science and learn emerging technologies like AI/ML, and demonstrate commitment to continuous growth. This makes me a stronger candidate long term.
+
+It's not about avoiding work—I've been active the whole time. I've built MIRROR, an AI-driven journaling platform using RAG and LLM integration, which kept me technically sharp and relevant. Now that I'm wrapping up my Master's, I'm ready to bring all this learning into a production environment."
+### **What are you doing now?**
+
+### **Walk me through your role at Siemens**
 
 -----------------------
 
