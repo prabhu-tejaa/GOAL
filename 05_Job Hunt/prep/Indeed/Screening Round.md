@@ -21,7 +21,7 @@ After my role at Siemens ended, I had two choices: jump into another job immedia
 Here's my thinking: 
 I had 2 years of solid experience, but the industry is moving fast, especially with AI, microservices architectures, and modern cloud patterns. My Bachelor's degree was from 2018, and a lot has changed.
 
-So I enrolled in a Master's program at Vellore Institute of Technology specifically to deepen my fundamentals in computer science and learn emerging technologies like AI/ML, and demonstrate commitment to continuous growth. This makes me a stronger candidate long term.
+So I enrolled in a Master's program at Vellore Institute of Technology specifically to deepen my fundamentals in computer science and learn emerging technologies, and demonstrate commitment to continuous growth. This makes me a significantly stronger candidate long term.
 
 ### **What are you doing now?**
 
@@ -35,19 +35,22 @@ I'm completing my coursework and finalizing my capstone project, MIRROR—an AI-
 **Second, job search:**
 I'm actively interviewing and looking to join a company where I can contribute meaningfully to production systems. My goal is to leverage both my Siemens experience and my master knowledge
 
-The Master's wraps up in July, so my availability is immediate. I'm excited to be at this inflection point, experienced but current, grounded but forward thinking."
+The Master's wraps up in July, so my availability is immediate.
 ### **Walk me through your role at Siemens**
 
-I was at Siemens for 2 years as a Software Engineer with 3 different teams.
+I was at Siemens for 2 years as a Software Development Engineer, working across 3 different teams on IoT and EV charging platforms.
 
 **First 1.5 years:**
-I was on the Adept Chips Services team, building IoT commissioning solutions. I engineered a **voice-controlled Proof of Concept using Alexa Skills Kit**, demonstrated hands free hardware configuration. I also implemented charger grouping features and led a **critical migration of the VersiCharge Configurator from Angular 9 to Angular 14** and all the related depeacy for the desktop app, where I had to resolve major security vulnerabilities across the entire dependency tree. Additionally, I debugged **FCM token synchronization failures in the China region** without access to local test environments, this required remote log analysis and creative problem solving.
-Later I was moved to another teamwho was devemopking the same commisiong app but in mobie and desktop, here i have invested and learned a lot on andoind and mobile development, i was helping the new team with my knowlwge of my past experince  since it was simlar, we have uniifed backedn for both amobile and deskotp
+I was a contractor at the Adept Chips Services, building IoT commissioning solutions. I engineered a **voice-controlled Proof of Concept using Alexa Skills Kit**, demonstrated hands free hardware configuration. I also implemented charger grouping features and led a **critical migration of the VersiCharge Configurator from Angular 9 to Angular 14** and all the related depeacy for the desktop app, where I had to resolve major security vulnerabilities across the entire dependency tree. Additionally, I debugged **FCM token synchronization failures in the China region** without access to local test environments, this required remote log analysis and creative problem solving.
 
-**Last 1 year:**
-I transitioned to TeamLease Services team due to some issue with my parent compnay the project mianager had taken me to their interinal osurincg comaonut, where I shifted to a **low-code platform called Mendix**. There, I engineered production-ready microflows for the Siemens Sifinity Fleet IoT platform, developing domain models and core business logic. I also architected a **custom OQL (Object Query Language) reporting engine** that processed 10,000+ records with optimized query performance for energy consumption analytics. (try to use some java too here na)
+Later, I transitioned to work on the **mobile and desktop commissioning app team**, where I invested heavily in Android and mobile development. I helped bring consistency to the platform by unifying the backend architecture for both mobile and desktop clients, leveraging my experience from the previous team.
 
-**Across both roles:** I shipped features end-to-end, worked in Agile sprints, and collaborated with stakeholders across Europe and Asia. I got exposure to cloud deployments, CI/CD pipelines, and enterprise-scale systems.
+**Last 16 months:**
+In December 2023, when my contract with Adept Chips concluded, the project manager I was working with brought me into TeamLease Services, their internal consulting arm, to continue working on with Siemens. Where I shifted to a **low-code platform called Mendix**. There, I engineered production-ready microflows for the Siemens Sifinity Fleet IoT platform, developing domain models and core business logic. I also architected a **custom OQL (Object Query Language) reporting engine** that processed 10,000+ records with optimized query performance for energy consumption analytics. (try to use some java too here na)
+
+**Across both roles:** I shipped features end-to-end, worked in Agile sprints, and collaborated with stakeholders across Europe. I got exposure to cloud deployments, CI/CD pipelines, and enterprise-scale systems.
+
+**"Why did you leave TeamLease after only 6 months?"**
 
 -----------------------
 
