@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/prep/Indeed/Screening Round.md",
+                "file": "05_Job Hunt/Applied.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Screening Round"
+              "title": "Applied"
             }
           }
         ]
@@ -195,10 +195,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
+    "05_Job Hunt/prep/Indeed/Screening Round.md",
     "05_Job Hunt/Applied.md",
     "05_Job Hunt/applications/Visa.md",
     "Pasted image 20260429162659.png",
-    "05_Job Hunt/prep/Indeed/Screening Round.md",
     "05_Job Hunt/prep/Indeed/PrepProcess.md",
     "05_Job Hunt/prep/Indeed/DSA.md",
     "05_Job Hunt/Rejected.md",
