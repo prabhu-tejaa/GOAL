@@ -51,89 +51,104 @@
 **KVS/NVS PGT (Computer Science):** Kendriya Vidyalaya / Navodaya Vidyalaya.    
 
 **UGC NET / Assistant Professor:**
-perfectly.
 
-- **UPSC Civil Services (IAS, IPS, IFS, IRS):**
+**UPSC Civil Services (IAS, IPS, IFS, IRS):**
+   
+**UPSC EPFO (APFC - Assistant Provident Fund Commissioner):**
+        
+**SSC Combined Graduate Level (CGL):**
+
+**SBI Probationary Officer (PO):**
+
+**IBPS PO (Public Sector Banks):**
+
+**RBI Grade B Officer (Generalist):**
+
+**LIC AAO (Generalist):** Assistant Administrative Officer.
+
+State Public Service Commission (State PCS)
+**Positions:** Deputy Collector, DSP, Block Development Officer (BDO).
+
+**UGC NET (Assistant Professor):**
+
+**KVS/NVS PGT (Post Graduate Teacher):**
+
+**UIDAI Assistant Director (Programming):** Unique Identification Authority of India (Aadhar).
+**TRAI Advisor / Joint Advisor:** Telecom Regulatory Authority of India.
+**BIS Scientist B (Computer Science):** Bureau of Indian Standards.
+**UPSC Assistant Registrar:** For central universities and IITs/IIMs.
+**UPSSSC Assistant Statistical Officer (ASO):**
+**NTPC Executive (IT/Systems):** National Thermal Power Corporation.
+**BHEL IT Officer:** Bharat Heavy Electricals Limited.
+**SAIL IT Specialist:** Steel Authority of India Limited.
+**AAI Junior Executive (Information Technology):** Airports Authority of India.
+**NITI Aayog (Young Professional / Associate):**
+**Currency Note Press (Nashik) - Welfare Officer / Supervisor:**
+
+### 
+
+**RRB Junior Engineer (IT):**
+**RRB Senior Section Engineer (SSE) - IT:**
     
-    - **Age Limit for BC-C:** 35 years.
+    - **Eligibility:** MCA / B.E. / B.Tech.
         
-    - **Timeline:** Notification usually in **February**; Prelims in May.
+    - **Age Limit (BC-C):** Up to **39 years** (for the current cycle).
         
-- **UPSC EPFO (APFC - Assistant Provident Fund Commissioner):**
+
+### 2. Food Corporation of India (FCI)
+
+FCI manages the food security of the nation and requires a large IT management team.
+
+- **FCI Manager (Hindi):**
     
-    - **Age Limit for BC-C:** **38 years** (Base 35 + 3).
+    - **Eligibility:** Master's degree with Hindi/English (Check if your MCA elective or degree credits apply, though this is niche).
         
-    - **Timeline:** Keep an eye out for 2026/2027 cycle notifications; this is one of the highest-paying administrative roles.
+    - **Age Limit (BC-C):** Up to **38 years**.
         
-- **SSC Combined Graduate Level (CGL):**
+- **FCI Assistant Grade III (Technical/General):**
     
-    - **Roles:** Income Tax Inspector, Central Excise Inspector, Assistant Section Officer (ASO).
+    - **Age Limit (BC-C):** Up to **31 years**.
         
-    - **Age Limit for BC-C:** **33 years** for most posts.
+    - **Timeline:** Expected notification in **late 2026**.
         
-    - **Timeline:** 2026 cycle is active; 2027 notification typically arrives in **early 2027**.
+
+### 3. Metro Rail Corporations (DMRC, BMRCL, GMRCL, etc.)
+
+Every major city’s Metro has a separate recruitment board.
+
+- **Station Controller / Train Operator / Junior Engineer (IT):**
+    
+    - **Eligibility:** Degree/Diploma (B.Sc CS is often sufficient).
+        
+    - **Age Limit (BC-C):** Up to **31–33 years** (varies by state).
+        
+    - **Current Active:** **Gujarat Metro (GMRCL)** is currently accepting applications until **May 28, 2026**.
+        
+
+### 4. Intelligence Bureau (IB) & Specialized Security
+
+- **IB Security Assistant (Technical):**
+    
+    - **Age Limit (BC-C):** Up to **30 years**. Since you are exactly 30, check the specific "cut-off date" in the notification. If the cut-off is Jan 1st and you were 29 then, you are in.
+        
+- **NTRO (National Technical Research Organisation):**
+    
+    - **Position:** Scientist ‘B’ or Technical Assistant.
+        
+    - **Age Limit (BC-C):** Up to **33 years**.
+        
+    - **Timeline:** Known for sudden, short-window notifications.
+        
+
+### 5. Staff Selection Commission - Selection Posts
+
+Apart from CGL, the SSC releases "Phase" notifications for highly specific roles in small departments (like a Programmer in a tiny ministry).
+
+- **SSC Selection Posts (Phase XIV):**
+    
+    - **Age Limit:** Many posts have a limit of 30, which for you becomes **33**.
+        
+    - **Timeline:** Usually announced in **first quarter** of the year.
         
 
 ---
-
-## 2. Banking & Insurance Executive Roles
-
-These are "Generalist" Officer roles. You don't need to be in the IT department to do these; they are management and operations roles.
-
-- **SBI Probationary Officer (PO):**
-    
-    - **Age Limit for BC-C:** 33 years.
-        
-    - **Timeline:** Expected notification in **May/June 2026**.
-        
-- **IBPS PO (Public Sector Banks):**
-    
-    - **Age Limit for BC-C:** 33 years.
-        
-    - **Timeline:** Notification expected in **July/August 2026**.
-        
-- **RBI Grade B Officer (Generalist):**
-    
-    - **Age Limit for BC-C:** 33 years.
-        
-    - **Timeline:** Expected notification in **July 2026**.
-        
-- **LIC AAO (Generalist):** Assistant Administrative Officer.
-    
-    - **Age Limit for BC-C:** 33 years.
-        
-    - **Timeline:** Periodic; check for late 2026 updates.
-        
-
----
-
-## 3. State Public Service Commission (State PCS)
-
-Every state has its own civil service exam (e.g., UPPSC, BPSC, APPSC, TSPSC). These have the most generous age limits.
-
-- **Positions:** Deputy Collector, DSP, Block Development Officer (BDO).
-    
-- **Age Limit for BC-C:** Typically **38 to 45 years** depending on the state.
-    
-- **Timeline:** Varies by state; most states release at least one major notification per year.
-    
-
----
-
-## 4. Teaching & Academia (Non-Technical)
-
-Since you have a Master's degree, you are eligible for high-level teaching roles.
-
-- **UGC NET (Assistant Professor):**
-    
-    - **Eligibility:** MCA with 55% (50% for BC-C).
-        
-    - **Age Limit:** **No upper age limit** for Assistant Professor.
-        
-    - **Timeline:** Twice a year (**June** and **December**).
-        
-- **KVS/NVS PGT (Post Graduate Teacher):**
-    
-    - **Age Limit for BC-C:** Up to **43 years**.
-        
-    - **Timeline:** Major recruitment drive expected in **late 2026**.
