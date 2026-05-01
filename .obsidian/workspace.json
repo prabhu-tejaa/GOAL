@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_Job Hunt/Applied.md",
+                "file": "05_Job Hunt/Gov.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applied"
+              "title": "Gov"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "28b86a5ebaf5c9ff",
   "lastOpenFiles": [
-    "05_Job Hunt/prep/Indeed/Screening Round.md",
+    "05_Job Hunt/Government.md",
+    "05_Job Hunt/Gov.md",
     "05_Job Hunt/Applied.md",
+    "05_Job Hunt/prep/Indeed/Screening Round.md",
     "05_Job Hunt/applications/Visa.md",
     "Pasted image 20260429162659.png",
     "05_Job Hunt/prep/Indeed/PrepProcess.md",
@@ -222,7 +224,6 @@
     "05_Job Hunt/applications/Amazon.md",
     "05_Job Hunt/applications/Intuit.md",
     "05_Job Hunt/applications/Infor.md",
-    "05_Job Hunt/applications/JPMC.md",
     "Pasted image 20260428022429.png",
     "Pasted image 20260428011956.png",
     "Pasted image 20260428003653.png",
