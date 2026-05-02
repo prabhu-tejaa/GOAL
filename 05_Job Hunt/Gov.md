@@ -397,3 +397,5 @@ Indian Railways (Group A Officers)
 
 
 **RBI Grade B, SEBI, and IBPS SO**
+
+SEBI Grade A IT
