@@ -1,3 +1,65 @@
+only way for now - 
+
+## **SEBI Grade A (IT)**
+
+
+| **Exam**         | **Check Window** | **Official Website to Bookmark**        |
+| ---------------- | ---------------- | --------------------------------------- |
+| **SEBI Grade A** | October–November | [sebi.gov.in](https://www.sebi.gov.in/) |
+
+
+
+- **Dates:** Notification ~June 2026; Exams ~October–November 2026.
+    
+- **Posts:** ~25–35.
+    
+- **Salary:** ~₹1,55,000/month.
+    
+- **Syllabus:**
+    - **Phase 1:** Aptitude (Qualifying) + IT Basics.
+    - **Phase 2:** Advanced IT (Java, SQL, Networking, OS) + Descriptive English.
+
+fully narrowed:
+
+IFSCA Grade A
+PFRDA Grade A
+SEBI Grade A
+
+
+## **IFSCA Grade A (IT)**
+
+- **Dates:** Notification ~March/April 2026; Exams ~May/June 2026.
+    
+- **Posts:** 2–5.
+    
+- **Salary:** ~₹1,45,000+/month.
+    
+- **Syllabus:** Identical to SEBI (Phase 1 Aptitude + Phase 2 Tech/English).
+
+## **PFRDA Grade A (IT)**
+
+- **Dates:** Notification ~Sept 2026.
+    
+- **Posts:** 2–5.
+    
+- **Salary:** ~₹1,40,000/month.
+    
+- **Syllabus:** Identical to SEBI (Phase 1 Aptitude + Phase 2 Tech/English).
+## **SEBI Grade A (IT)**
+
+- **Dates:** Notification ~June 2026; Exams ~October–November 2026.
+    
+- **Posts:** ~25–35.
+    
+- **Salary:** ~₹1,55,000/month.
+    
+- **Syllabus:**
+    - **Phase 1:** Aptitude (Qualifying) + IT Basics.
+    - **Phase 2:** Advanced IT (Java, SQL, Networking, OS) + Descriptive English.
+
+----
+
+
 Narrowed:
 ## **SEBI Grade A (IT)**
 
