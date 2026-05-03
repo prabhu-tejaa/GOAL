@@ -11,10 +11,14 @@
             "id": "90ee73c079f938fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "gov/with sebi.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "with sebi"
             }
           }
         ]
@@ -191,6 +195,8 @@
   },
   "active": "90ee73c079f938fb",
   "lastOpenFiles": [
+    "gov/with sebi.md",
+    "gov",
     "05_Job Hunt/Gov.md",
     "05_Job Hunt/Government.md",
     "05_Job Hunt/Applied.md",
@@ -219,7 +225,6 @@
     "05_Job Hunt/applications/HCL Tech.md",
     "05_Job Hunt/applications/Amazon.md",
     "05_Job Hunt/applications/Intuit.md",
-    "05_Job Hunt/applications/Infor.md",
     "Pasted image 20260428022429.png",
     "Pasted image 20260428011956.png",
     "Pasted image 20260428003653.png",
@@ -237,7 +242,6 @@
     "01_DSA/1_Array&Hashing",
     "099_Bosscoder",
     "Untitled 1.canvas",
-    "099_Bosscoder/DSA (Linear)/Topics",
     "Untitled.canvas"
   ]
 }
