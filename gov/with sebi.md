@@ -1,7 +1,7 @@
 Narrowed:
 ## **SEBI Grade A (IT)**
 
-- **Dates:** Notification ~June 2026; Exams ~Aug/Sept 2026.
+- **Dates:** Notification ~June 2026; Exams ~October–November 2026.
     
 - **Posts:** ~25–35.
     
@@ -63,7 +63,7 @@ Narrowed:
 | **Exam**          | **Check Window**       | **Official Website to Bookmark**                       |
 | ----------------- | ---------------------- | ------------------------------------------------------ |
 | **IFSCA Grade A** | **March – April**      | [ifsca.gov.in](https://ifsca.gov.in/)                  |
-| **SEBI Grade A**  | **May – June**         | [sebi.gov.in](https://www.sebi.gov.in/)                |
+| **SEBI Grade A**  | October–November       | [sebi.gov.in](https://www.sebi.gov.in/)                |
 | **IBPS SO**       | **July – August**      | [ibps.in](https://www.ibps.in/)                        |
 | **PFRDA Grade A** | **August – September** | [pfrda.org.in](https://www.pfrda.org.in/)              |
 | **SBI SO**        | **Quarterly**          | [sbi.co.in/web/careers](https://sbi.co.in/web/careers) |
