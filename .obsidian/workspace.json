@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gov/sebi.md",
+                "file": "gov/time table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sebi"
+              "title": "time table"
             }
           }
         ]
@@ -195,10 +195,10 @@
   },
   "active": "90ee73c079f938fb",
   "lastOpenFiles": [
+    "gov/sebi.md",
     "gov/with sebi.md",
     "gov/time table.md",
     "gov/if not sebi.md",
-    "gov/sebi.md",
     "01_DSA/02_Hashing.md",
     "01_DSA/01_Arrays_1D_Static.md",
     "01_DSA/01_Arrays_1D_Dynamic.md",
