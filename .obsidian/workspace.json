@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gov/sebi.md",
+                "file": "05_Job Hunt/Private Companies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sebi"
+              "title": "Private Companies"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "apple",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,8 +196,9 @@
   },
   "active": "90ee73c079f938fb",
   "lastOpenFiles": [
-    "gov/time table.md",
+    "05_Job Hunt/job tires.md",
     "gov/sebi.md",
+    "gov/time table.md",
     "gov/with sebi.md",
     "gov/if not sebi.md",
     "01_DSA/02_Hashing.md",
@@ -229,7 +231,6 @@
     "05_Job Hunt/applications/Uber.md",
     "05_Job Hunt/applications/Goldman Sachs.md",
     "05_Job Hunt/applications/Eli Lilly.md",
-    "05_Job Hunt/job tires.md",
     "Pasted image 20260428022429.png",
     "Pasted image 20260428011956.png",
     "Pasted image 20260428003653.png",
